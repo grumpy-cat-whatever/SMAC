@@ -238,8 +238,3 @@ function SetIntroColourARGB(clr:Number)
 
 function SetStoryColour(red:Number, green:Number, blue:Number, alphao:Number, redmul:Number, greenmul:Number, bluemul:Number, alphamul:Number) { SetIntroColour(red, green, blue, alphao, redmul, greenmul, bluemul, alphamul); }
 function SetStoryColourARGB(clr:Number) { SetIntroColourARGB(clr); }
-
-function SetStoryColourARGB(colour:Number)
-{
-	SetMovieColourARGB(GirlsStory, colour);
-}

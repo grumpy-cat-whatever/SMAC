@@ -40,7 +40,7 @@ function DoChoreCookingTutored()
 	
 	var cf:Number = currFrame;
 	if (Action == 1001.1) People.ShowPerson(5, 0, 1, 1);
-	else if (action == 1001.2) ShowSlave("Haro", 0, 1);
+	else if (Action == 1001.2) ShowSlave("Haro", 0, 1);
 	else ShowSlave("Sana", 0, 1);
 	currFrame = cf;
 	
@@ -118,7 +118,7 @@ function DoChoreCleaningTutored()
 	
 	var cf:Number = currFrame;
 	if (Action == 1001.1) People.ShowPerson(5, 0, 1, 1);
-	else if (action == 1001.2) ShowSlave("Haro", 0, 1);
+	else if (Action == 1001.2) ShowSlave("Haro", 0, 1);
 	else ShowSlave("Sana", 0, 1);
 	currFrame = cf;
 
@@ -131,7 +131,7 @@ function DoChoreCleaningTutored()
 				if (ApronWorn == 1) PersonSpeak("Tutor", "I see you are wearing ONLY an apron!", true);
 				else PersonSpeak("Tutor", "You really should wear an apron, naked housework is a little <i>dirty</i>.", true);
 			}
-		} else if (Action = 1001.2) {
+		} else if (Action == 1001.2) {
 			PersonSpeak("Haro", "You are excellent at housework. Looks like there are a few pointers I can give you.", true);
 			AddText("\r\rHaro teaches #slave some time saving techniques and recommends some cleaning products.");
 			if (Naked) {

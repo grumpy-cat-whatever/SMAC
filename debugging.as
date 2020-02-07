@@ -217,7 +217,7 @@ function ShowDebugging()
 	}
 	DebuggingMenu.ItemPlus.onPress = function() {
 		var num:Number = Number(DebuggingMenu.DBItem.text);
-		if (num == undefined || num == NaN) num = 0;
+		if (!num) num = 0;
 		num++;
 		if (num > 17) num = 1;
 		DebuggingMenu.DBItem.text = num + "";
@@ -226,7 +226,7 @@ function ShowDebugging()
 	}
 	DebuggingMenu.ItemMinus.onPress = function() {
 		var num:Number = Number(DebuggingMenu.DBItem.text);
-		if (num == undefined || num == NaN) num = 18;
+		if (!num) num = 18;
 		num--;
 		if (num < 0) num = 17;
 		DebuggingMenu.DBItem.text = num + "";
@@ -236,7 +236,7 @@ function ShowDebugging()
 	DebuggingMenu.FramePlus.onPress = function() {
 		if (DebuggingMenu.DBFrame.text == "N/A") return;
 		var num:Number = Number(DebuggingMenu.DBFrame.text);
-		if (num == undefined || num == NaN) num = 0;
+		if (!num) num = 0;
 		num++;
 		DebuggingMenu.DBFrame.text = num + "";
 		DebugChangeItem();
@@ -244,7 +244,7 @@ function ShowDebugging()
 	DebuggingMenu.FrameMinus.onPress = function() {
 		if (DebuggingMenu.DBFrame.text == "N/A") return;
 		var num:Number = Number(DebuggingMenu.DBFrame.text);
-		if (num == undefined || num == NaN) num = 2;
+		if (!num) num = 2;
 		num--;
 		if (num < 0) num = 1;
 		DebuggingMenu.DBFrame.text = num + "";
@@ -905,10 +905,10 @@ function DebugChangeItem()
 			Wings._visible = true;
 			DebugSetDraggable(Wings, 7);
 			PositionWings(xpos, ypos, rot, wid, hei, frame);
-			if (frame != NaN) DebuggingMenu.I7 = "_root.PositionWings(" + xpos+", " + ypos + ", " + rot + ", " + wid + ", " + hei + ", " + frame + ");\r";
+			if (!isNaN(frame)) DebuggingMenu.I7 = "_root.PositionWings(" + xpos+", " + ypos + ", " + rot + ", " + wid + ", " + hei + ", " + frame + ");\r";
 			else DebuggingMenu.I7 = "_root.PositionWings(" + xpos+", " + ypos + ", " + rot + ", " + wid + ", " + hei + ");\r";
 			if (tint != 0) DebuggingMenu.I7 += "_root.SetLastMovieColourARGB(" + tint + ");\r";
-			if (frame != NaN) DebuggingMenu.X7 = "<Wings frame='"  + frame + "' x='" + xpos+"' y='" + ypos + "' width='" + wid + "' height='" + hei + "'";
+			if (!isNaN(frame)) DebuggingMenu.X7 = "<Wings frame='"  + frame + "' x='" + xpos+"' y='" + ypos + "' width='" + wid + "' height='" + hei + "'";
 			else DebuggingMenu.X7 = "<Wings x='" + xpos+"' y='" + ypos + "' width='" + wid + "' height='" + hei + "'";
 
 			if (rot != 0) DebuggingMenu.X7 += " rotation='" + rot + "'";
@@ -921,8 +921,8 @@ function DebugChangeItem()
 			DebugSetDraggable(WingsOver, 8);
 			PositionWingsOver(xpos, ypos, rot, wid, hei, frame);
 			if (tint != 0) DebuggingMenu.I8 += "_root.SetLastMovieColourARGB(" + tint + ");\r";
-			if (frame != NaN) DebuggingMenu.I8 = "_root.PositionWingsOver(" + xpos+", " + ypos + ", " + rot + ", " + wid + ", " + hei + ");\r";
-			if (frame != NaN) DebuggingMenu.X8 = "<Wings frame='"  + frame + "' x='" + xpos+"' y='" + ypos + "' width='" + wid + "' height='" + hei + "' over='true'";
+			if (!isNaN(frame)) DebuggingMenu.I8 = "_root.PositionWingsOver(" + xpos+", " + ypos + ", " + rot + ", " + wid + ", " + hei + ");\r";
+			if (!isNaN(frame)) DebuggingMenu.X8 = "<Wings frame='"  + frame + "' x='" + xpos+"' y='" + ypos + "' width='" + wid + "' height='" + hei + "' over='true'";
 			else DebuggingMenu.X8 = "<Wings x='" + xpos+"' y='" + ypos + "' width='" + wid + "' height='" + hei + "' over='true'";
 			if (rot != 0) DebuggingMenu.X8 += " rotation='" + rot + "'";
 			if (tint != 0) DebuggingMenu.X8 += " tint='" + tint + "'";

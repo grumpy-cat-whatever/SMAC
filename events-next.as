@@ -341,7 +341,7 @@ function DoEventNext(eventno, xmlnow:Boolean)
 			return;
 		}
 		Participants.push(Math.round(10 * (NumEvent - 9018)) * -1);
-	case 9020:
+	case 9018:
 		// slavemaker participant
 		Participants.push(-100);
 		DoNewPlanningYes();
