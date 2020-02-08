@@ -67,6 +67,7 @@ class BaseModule extends BitFlags
 	//		mc is the MovieClip container the Module is loaded into
 	public function BaseModule(mc:MovieClip, slave:Object, cg:Object, nm:String)
 	{
+	    super();
 		//SMTRACE("BaseModule() " + mc + " " + cg);
 		mcBase = mc == undefined ? null : mc;
 		BaseMovie = mcBase;

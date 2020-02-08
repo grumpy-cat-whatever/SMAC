@@ -509,8 +509,7 @@ class BackgroundModule extends BaseModule
 			case "potions": ShowPotions(gframe, flip); return;
 			case "restaurant": ShowRestaurant(gframe, flip); return;
 			case "ruins":
-			case "ruinedtemple":
-			case "temple": ShowRuinedTemple(gframe, flip); return;
+			case "ruinedtemple": ShowRuinedTemple(gframe, flip); return;
 			case "sakura": ShowSakura(gframe, flip); return;
 			case "salon": ShowSalon(gframe, flip); return;
 			case "school": ShowSchool(gframe, flip); return;

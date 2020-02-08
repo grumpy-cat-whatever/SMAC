@@ -319,7 +319,7 @@ class GameItems extends BaseModule {
 		
 		var place:Number;
 		if (typeof(place) == "string") place = coreGame.DecodePlace(String(placeo));
-		else if (typeof(place) == "boolean") place = Boolean(placeo) ? 1 : 0;
+		else if (typeof(place) == "boolean") place = placeo ? 1 : 0;
 		else place = Math.abs(Number(placeo));
 		if (place == 0) coreGame.HideAllPeople();
 		if (itemno == 29) gframe = 4;
@@ -737,7 +737,6 @@ class GameItems extends BaseModule {
 			case 21: return "Trophy";
 			case 22: return "Scroll";
 			case 23: return "CatEars";
-			case 29:
 			case 24: return "CatTail";
 			case 25: return "Lingerie";
 			case 26: return "BunnySuit";
