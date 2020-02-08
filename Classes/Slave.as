@@ -356,7 +356,6 @@ class Slave extends SlaveActions {
 		// first try image, it is the most unique
 		if (SlaveImage != "") {
 			if (SlaveImage.toLowerCase() == slwr) return true;
-			if (bSlashes) continue;
 			sl = SlaveImage.split("/");
 			slchk = sl[sl.length - 1].split(".")[0].toLowerCase();
 			//trace("...image: " + slchk.split(" ").join(""));
@@ -373,7 +372,6 @@ class Slave extends SlaveActions {
 		//trace("IsSlaveDetails: folder " + slwr + " " + snolwr + " " + ImageFolder);
 		if (ImageFolder != "") {
 			if (ImageFolder.toLowerCase() == slwr) return true;
-			if (bSlashes) continue;
 			sl = ImageFolder.split("/");
 			slchk = sl[sl.length - 1];
 			//trace("...folderL " + slchk.split(" ").join(""));

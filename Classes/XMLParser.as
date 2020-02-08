@@ -404,7 +404,6 @@ class XMLParser extends XMLBase {
 		else {
 			var ret:Boolean = coreGame.modulesList.SetExEventBitFlag(flagtype + "-" + flagno, setf);
 			//SMTRACE("event " + flagtype + "-" + flagno + " = " + ret);
-			if (ret) continue;
 	
 			var per:Person = coreGame.People.GetPersonsObject(flagt);
 			if (per != null) {
@@ -611,7 +610,6 @@ class XMLParser extends XMLBase {
 				else if (strl == "delay") delay = Number(aNode.attributes[attr]);
 			}
 			if (person == "") person = aNode.firstChild.nodeValue;
-			if (person == "" || person == undefined) continue;
 			if (str == "showslave" || str == "hideslave") {
 				if (str == "showslave") SMData.ShowSlave(person, place == NaN ? places : place, align, frame);
 				else coreGame.HideImages();

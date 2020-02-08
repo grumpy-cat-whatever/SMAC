@@ -220,7 +220,6 @@ class PlaceSlaveMarket extends Place
 			var sgirl:Slave = thisInstance.SMData.SlavesArray[idx];
 			if (sgirl.SlaveType == 2 || sgirl.SlaveType == -20 || sgirl.SlaveType == -10) return false;
 			if (sgirl.BitFlag1.CheckBitFlag(60) || sgirl.BitFlag1.CheckBitFlag(61)) return false;
-			if (sgirl.Price = -1) continue;
 			return true;
 		}
 		function SellCallback()

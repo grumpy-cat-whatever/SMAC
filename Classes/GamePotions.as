@@ -427,7 +427,6 @@ class GamePotions extends DialogBase {
 	{
 		var potion:String = aNode.attributes.potion.toLowerCase();
 		var pot:Number = GetPotionNumber(potion);
-		if (pot == -1) continue;
 			
 		if (str == "drinkpotion") {
 			DrinkPotion(pot, undefined, aNode.firstChild.nodeValue);

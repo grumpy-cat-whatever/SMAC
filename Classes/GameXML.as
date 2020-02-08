@@ -1114,7 +1114,6 @@ class GameXML extends XMLStatistics {
 		var per:Number;
 		if (str == "altersexuality") {
 			per = ParsePersonDetails(aNode);
-			if (per == -100) continue;
 			SMData.GetSlaveByIndex(per).AlterSexuality(GetExpression(aNode.firstChild.nodeValue));
 			return true;
 		}

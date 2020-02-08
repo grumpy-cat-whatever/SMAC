@@ -403,7 +403,6 @@ class GameLanguage extends GameLanguageBase {
 			coreGame.dspMain.UpdateText(str, aNode);
 			if (str == "Other") {
 				PopulateOther(aNode.firstChild);
-				continue;
 			}
 			if (str == "Statistics") PopulateStatistics(aNode);
 			else if (str == "Buttons") PopulateButtons(aNode);
