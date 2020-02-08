@@ -37,6 +37,7 @@ class GameLanguage extends GameLanguageBase {
 	// constructor 
 	public function GameLanguage(cg:Object)
 	{ 
+		super();
 		coreGame = cg;
 		XMLData = cg.XMLData;
 		bLangLoaded = false;

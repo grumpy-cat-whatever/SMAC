@@ -37,6 +37,7 @@ class TimerList extends TimerListBase
 	
 	public function TimerList(cg:Object)
 	{
+	    super();
 		coreGame = cg;
 		WaitingClip = coreGame.WaitingClip;
 		
