@@ -978,12 +978,12 @@ class City extends SlaveModule
 						if (Seer == null) Seer = new PersonSeer(coreGame, this);
 						per = Seer;
 						can = false;
-					} else per = new Person(nm, coreGame, id, mod == NaN ? 0 : mod, can, this);
+					} else per = new Person(nm, coreGame, id, isNaN(mod) ? 0 : mod, can, this);
 					nm = Language.GetXMLString("Name", hNode.firstChild);
 					if (nm != "") per.PersonName = nm;
 					nm = Language.GetXMLString("Gender", hNode.firstChild);
 					if (nm != "") per.PersonGender = coreGame.GetGender(nm);
-					if (mod != NaN) per.DifficultyLendMod = mod;
+					if (!isNaN(mod)) per.DifficultyLendMod = mod;
 					if (Language.GetXMLBooleanParsed("Noble", hNode.firstChild, true)) per.SetBitFlag(128);
 				} else per.Id = id;
 				if (per.strLocation == "") per.strLocation = Language.GetXMLString("Location", hNode.firstChild);

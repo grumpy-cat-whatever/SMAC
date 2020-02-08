@@ -1014,7 +1014,7 @@ class GameLanguage extends GameLanguageBase {
 	{
 		var pstring:String = String(person);
 		if (typeof(person) == "number") pstring = coreGame.People.GetPersonsName(Number(person));
-		else if (Number(pstring) != NaN && Number(pstring) > 0) pstring = coreGame.People.GetPersonsName(Number(pstring)); 
+		else if (!isNaN(Number(pstring)) && Number(pstring) > 0) pstring = coreGame.People.GetPersonsName(Number(pstring));
 	
 		if (newl != true) SetText("");
 		bSpeaking = true;

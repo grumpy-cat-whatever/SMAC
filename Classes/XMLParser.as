@@ -611,10 +611,10 @@ class XMLParser extends XMLBase {
 			}
 			if (person == "") person = aNode.firstChild.nodeValue;
 			if (str == "showslave" || str == "hideslave") {
-				if (str == "showslave") SMData.ShowSlave(person, place == NaN ? places : place, align, frame);
+				if (str == "showslave") SMData.ShowSlave(person, isNaN(place) ? places : place, align, frame);
 				else coreGame.HideImages();
 			} else {
-				if (str == "showperson") coreGame.People.ShowPerson(person, place == NaN ? places : place, align, frame, delay);
+				if (str == "showperson") coreGame.People.ShowPerson(person, isNaN(place) ? places : place, align, frame, delay);
 				else coreGame.People.HidePerson(person);
 			}
 			return;

@@ -411,8 +411,8 @@ class Place extends SlaveModule
 				var pe:PlaceEvent = arEventIndex[i];
 				var evno:Number = 0;
 				var earr:Array = pe.strName.split("-");
-				if (earr[2] != undefined && Number(earr[2]) != NaN) evno = Number(earr[2]);
-				else if (earr[1] != undefined && Number(earr[1]) != NaN) evno = Number(earr[1]);
+				if (earr[2] != undefined && !isNaN(Number(earr[2]))) evno = Number(earr[2]);
+				else if (earr[1] != undefined && !isNaN(Number(earr[1]))) evno = Number(earr[1]);
 				pe.SetEventTotal(0);
 				if (evno != int(evno) || pe.strName == "TentacleSex" || pe.strName == "VisitAstrid") pe.NoRepeatEvent();
 			}
@@ -839,7 +839,7 @@ class Place extends SlaveModule
 		SetEvent(evt);
 		coreGame.OldStrEvent = evt;
 		var earr:Array = coreGame.StrEvent.split("-");
-		if (earr[2] != undefined && earr[2] != "" && Number(earr[2]) != NaN) coreGame.OldNumEvent = Number(earr[2]);
+		if (earr[2] != undefined && earr[2] != "" && !isNaN(Number(earr[2]))) coreGame.OldNumEvent = Number(earr[2]);
 	}
 	
 	public function ResetWalkEvent()
