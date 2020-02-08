@@ -5,7 +5,7 @@ import Scripts.Classes.*;
 
 class MonsterGenericNamed extends Monster {
 	
-	public function MonsterGeneric(attack:Number, defence:Number, health:Number, speed:Number, desc:String, imagemc:Object, cg:Object) 
+	public function MonsterGenericNamed(attack:Number, defence:Number, health:Number, speed:Number, desc:String, imagemc:Object, cg:Object)
 	{ 
 		super(attack, defence, health, speed, desc, cg);
 		image = imagemc;
