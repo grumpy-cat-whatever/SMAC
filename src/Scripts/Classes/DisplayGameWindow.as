@@ -897,8 +897,8 @@ class DisplayGameWindow extends DisplayBase {
 			coreGame.PlanningSelections.LWhoSupervises._visible = true;
 			if (ct != false) {
 				superviseTabs.ShowAllTabs();
-				if (coreGame.SuperviseYourself) superviseTabs.SelectTab(0);
-				else superviseTabs.SelectTab(1);
+				if (coreGame.SuperviseYourself) superviseTabs.SelectTabUI(0);
+				else superviseTabs.SelectTabUI(1);
 			}
 		}
 		coreGame.PlanningSelections.LWhoSupervises.htmlText = Language.GetHtml("WhoSupervises", "Planning") + "\r\r";
