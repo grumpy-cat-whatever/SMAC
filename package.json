@@ -1,0 +1,13 @@
+{
+  "name": "sm-core",
+  "version": "1.0.0",
+  "description": "SMAC - SlaveMaker Actionscript Core files (adjusted for transpilation)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "idk_whatever",
+  "license": "UNLICENSED"
+}
