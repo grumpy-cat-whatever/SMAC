@@ -1082,7 +1082,7 @@ function SelectChoice(choice:Number, idx:Number) {
 					SMData.SMCustomPoints += SMData.GetSMQualitiesCost(19);
 				}
 				if (SMData.SMAdvantages.CheckBitFlag(28)) {
-					SMData.SMAdvantages.ClearBitFlag(29);
+					SMData.SMAdvantages.ClearBitFlag(28);
 					SMData.SMCustomPoints += SMData.GetSMQualitiesCost(28);
 				}				
 			}
