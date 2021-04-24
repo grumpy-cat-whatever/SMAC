@@ -139,7 +139,7 @@ class CoreGame {
 	public var Forest:PlaceForest;
 	public var Lake:PlaceLake;
 	public var RuinedTemple:PlaceRuins;
-	public var DeepForest:PlaceDeepForest;
+	//public var DeepForest:PlaceDeepForest;
 	public var BeachWalk:PlaceBeachWalk;
 	public var BeachSwim:PlaceBeachSwim;
 	public var BeachRocks:PlaceBeachRocks;
