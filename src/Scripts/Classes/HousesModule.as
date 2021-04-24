@@ -616,7 +616,7 @@ class Scripts.Classes.HousesModule extends BaseModule
 					var hint:String = undefined;					
 					if (plcNode.attributes.xpos != undefined) xpos = XMLData.GetExpression(plcNode.attributes.xpos);
 					if (plcNode.attributes.ypos != undefined) ypos = XMLData.GetExpression(plcNode.attributes.ypos);
-					if (plcNode.attributes.hint != undefined) image.HintText = plcNode.attributes.hint;
+					if (plcNode.attributes.hint != undefined) hint = plcNode.attributes.hint;
 					var image:MovieClip = chouse.mcBase;
 					if (xpos != undefined) {
 						chouse.xpos = xpos;

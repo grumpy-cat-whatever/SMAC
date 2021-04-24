@@ -168,7 +168,6 @@ class Scripts.Classes.DisplaySlaveStatistics extends DisplayCommonStatistics {
 		
 		var maxn:Number = coreGame.AssistantMaxNymphomania > coreGame.MaxStat ? coreGame.AssistantMaxNymphomania : coreGame.MaxStat;
 		if (maxn < 100) maxn = 100;
-		if (maxn < sd.MaxRefinement) maxr = sd.MaxNymphomania;
 		var maxc:Number = coreGame.AssistantMaxCharisma > coreGame.MaxStat ? coreGame.AssistantMaxCharisma : coreGame.MaxStat;
 		if (maxc < 100) maxc = 100;
 		if (maxc < sd.MaxCharisma) maxc = sd.MaxCharisma;

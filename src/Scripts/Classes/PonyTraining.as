@@ -189,19 +189,19 @@ class Scripts.Classes.PonyTraining extends TrainingBase
 	
 	public function IsTrainingStarted(sd:Slave) : Boolean
 	{
-		if (sd == undefined) sd == coreGame;
+		if (sd == undefined) sd = coreGame.slaveData;
 		return sd.slPonyTraining > 0;
 	}
 	
 	public function IsTrainingComplete(sd:Slave) : Boolean
 	{
-		if (sd == undefined) sd == coreGame;
+		if (sd == undefined) sd = coreGame.slaveData;
 		return sd.DonePonygirl == 1;
 	}
 	
 	public function ChangeTraining(val:Number, sd:Slave)
 	{
-		if (sd == undefined) sd == coreGame;
+		if (sd == undefined) sd = coreGame.slaveData;
 		return sd.ChangePonyTraining(val);
 	}
 

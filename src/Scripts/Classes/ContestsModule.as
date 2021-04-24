@@ -215,7 +215,7 @@ class Scripts.Classes.ContestsModule extends SlaveModule
 
 		SMData.ChangeSlaveMakerGender();		// force recolouring of buttons
 
-		mcBase,_visible = true;
+		mcBase._visible = true;
 		ContestsMenu._visible = true;
 		
 		// initial text

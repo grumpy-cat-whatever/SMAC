@@ -271,7 +271,7 @@ class Scripts.Classes.CoreGame {
 		config = new Configuration(mv);
 		
 		// xml
-		XMLData = new XMLSlave(this);
+		XMLData = new GameXML(this);
 		
 		// core images
 		coreImages = new ActInfoList(new Slave(this), "", mv);
@@ -320,7 +320,7 @@ class Scripts.Classes.CoreGame {
 		
 		// Dialogs
 		EndGameMenu = null;
-		Potions = new DialogPotions(this);
+		Potions = new GamePotions(this);
 		SelectEquipment = new DialogEquipmentSlave(this);
 		SelectSMEquipment = new DialogEquipmentSlaveMaker(this);
 		SystemMenu = new DialogSystem(this);
@@ -495,8 +495,9 @@ class Scripts.Classes.CoreGame {
 		return ++nLastAllocatedEvent;
 	}
 	
+	public var utclast:Number;
 	
-	private function GetUTCMSElapsed(start:Boolean) : Number
+	public function GetUTCMSElapsed(start:Boolean) : Number
 	{
 		if (start == true) utclast = 0;
 		var today_date:Date = new Date();

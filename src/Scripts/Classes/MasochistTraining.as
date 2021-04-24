@@ -129,14 +129,14 @@ class Scripts.Classes.MasochistTraining extends TrainingBase
 	
 	public function IsTrainingStarted(sd:Slave) : Boolean
 	{
-		if (sd == undefined) sd == coreGame;
-		return sd.BitFlag1.SetBitFlag(18);
+		if (sd == undefined) sd = coreGame.slaveData;
+		return sd.BitFlag1.CheckBitFlag(18);
 	}
 	
 	public function IsTrainingComplete(sd:Slave) : Boolean
 	{
-		if (sd == undefined) sd == coreGame;
-		return sd.BitFlag1.SetBitFlag(18);
+		if (sd == undefined) sd = coreGame.slaveData;
+		return sd.BitFlag1.CheckBitFlag(18);
 	}
 	
 	// Events

@@ -130,19 +130,19 @@ class Scripts.Classes.SuccubusTraining extends TrainingBase
 	
 	public function IsTrainingStarted(sd:Slave) : Boolean
 	{
-		if (sd == undefined) sd == coreGame;
+		if (sd == undefined) sd = coreGame.slaveData;
 		return sd.slSuccubusTraining > 0;
 	}
 	
 	public function IsTrainingComplete(sd:Slave) : Boolean
 	{
-		if (sd == undefined) sd == coreGame;
+		if (sd == undefined) sd = coreGame.slaveData;
 		return sd.slSuccubusTraining == 2000;
 	}
 	
 	public function ChangeTraining(val:Number, sd:Slave)
 	{
-		if (sd == undefined) sd == coreGame;
+		if (sd == undefined) sd = Slave(coreGame);
 		sd.ChangeSuccubusTraining(val);
 	}
 	

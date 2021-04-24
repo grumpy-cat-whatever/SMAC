@@ -24,7 +24,7 @@ class Scripts.Classes.CumslutTraining extends TrainingBase
 	
 	public function IsTrainingComplete(sd:Slave) : Boolean
 	{
-		if (sd == undefined) coreGame.CumslutLevel == 2000;
+		if (sd == undefined) coreGame.CumslutLevel = 2000;
 		return sd.CumslutLevel == 2000;
 	}
 	
