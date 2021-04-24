@@ -6,7 +6,7 @@
 import Scripts.Classes.*;
 
 
-class PlaceBeach extends Place
+class Scripts.Classes.PlaceBeach extends Place
 {
 	// constructor
 	public function PlaceBeach(nn:String, mc:MovieClip, cg:Object, id:Number, cc:City)

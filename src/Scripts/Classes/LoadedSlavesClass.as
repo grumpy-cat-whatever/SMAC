@@ -4,7 +4,7 @@
 import Scripts.Classes.*;
 import flash.display.BitmapData;
 
-class LoadedSlavesClass extends BaseModule {
+class Scripts.Classes.LoadedSlavesClass extends BaseModule {
 	
 	// loaded slave List
 	private var arLoadedSlaveArray:Array;			// current list of possible assistants

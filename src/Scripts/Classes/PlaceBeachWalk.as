@@ -5,7 +5,7 @@
 
 import Scripts.Classes.*;
 
-class PlaceBeachWalk extends PlaceBeach {
+class Scripts.Classes.PlaceBeachWalk extends PlaceBeach {
 	
 	private var qNum1:Number;
 	private var nNum2:Number;

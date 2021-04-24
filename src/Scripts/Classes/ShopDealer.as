@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class ShopDealer extends Shop {
+class Scripts.Classes.ShopDealer extends Shop {
 		
 	public var nPriceBiyaku:Number;
 	public var nPriceIshinai:Number;

@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogHouseInformation extends DialogBase {
+class Scripts.Classes.DialogHouseInformation extends DialogBase {
 		
 	private var checkboxListenerTentacleSafe:Object;
 	private var Home:HouseDetails;

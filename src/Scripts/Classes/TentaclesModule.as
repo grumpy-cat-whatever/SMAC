@@ -2,7 +2,7 @@
 
 import Scripts.Classes.*;
 
-class TentaclesModule extends SlaveModule
+class Scripts.Classes.TentaclesModule extends SlaveModule
 {
 	public var tunneltype:Number;
 	public var countrescued:Number;

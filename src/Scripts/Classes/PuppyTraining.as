@@ -31,7 +31,7 @@
 // Translation status: INCOMPLETE
 import Scripts.Classes.*;
 
-class PuppyTraining extends TrainingBase
+class Scripts.Classes.PuppyTraining extends TrainingBase
 {	
 	public function PuppyTraining(cgm:Object)
 	{

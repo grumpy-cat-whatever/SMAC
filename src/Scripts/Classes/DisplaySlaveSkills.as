@@ -6,7 +6,7 @@ import flash.geom.ColorTransform;
 import flash.geom.Transform;
 import Scripts.Classes.*;
 
-class DisplaySlaveSkills extends DisplayBase {
+class Scripts.Classes.DisplaySlaveSkills extends DisplayBase {
 	
 	var arSexSkills:Array;
 

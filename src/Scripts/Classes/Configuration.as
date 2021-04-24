@@ -3,8 +3,8 @@
 
 import Scripts.Classes.*;
 
-class Configuration
-{
+class Scripts.Classes.Configuration
+ {
 	// variables
 	
 	// Theme

@@ -5,7 +5,7 @@
 import Scripts.Classes.*;
 import flash.display.BitmapData;
 
-class GameItems extends BaseModule {
+class Scripts.Classes.GameItems extends BaseModule {
 		
 	private var xmlcustomitem:Boolean;		// are custom items enabled for this slave
 	

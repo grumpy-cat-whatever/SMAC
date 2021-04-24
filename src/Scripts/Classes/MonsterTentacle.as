@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class MonsterTentacle extends Monster {
+class Scripts.Classes.MonsterTentacle extends Monster {
 	
 	public function MonsterTentacle(attack:Number, defence:Number, health:Number, speed:Number, desc:String, imageno:Object) { 
 		super(attack, defence, health, speed, desc);

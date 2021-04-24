@@ -13,7 +13,7 @@
 
 import Scripts.Classes.*;
 
-class PlacePalace extends Place
+class Scripts.Classes.PlacePalace extends Place
 {
 	// constructor
 	public function PlacePalace(mc:MovieClip, cg:Object, cc:City)

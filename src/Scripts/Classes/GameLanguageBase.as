@@ -7,7 +7,7 @@
 import Scripts.Classes.*;
 import mx.containers.*;
 
-class GameLanguageBase {
+class Scripts.Classes.GameLanguageBase {
 	
 	// public
 	public var XMLData:Object;		// type Object to prevent cyclic reference error

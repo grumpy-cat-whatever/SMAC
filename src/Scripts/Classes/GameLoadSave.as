@@ -5,7 +5,7 @@
 import mx.controls.Alert;
 import Scripts.Classes.*;
 
-class GameLoadSave extends DialogBase {
+class Scripts.Classes.GameLoadSave extends DialogBase {
 		
 	// use BaseModukke loading to tell if load/save screen
 	public var nLoadSaveSet:Number;

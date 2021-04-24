@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class SMUnusualCum extends SlaveModule
+class Scripts.Classes.SMUnusualCum extends SlaveModule
 {	
 		
 	public function SMUnusualCum(mc:MovieClip, cgm:Object) { super(mc, null, cgm); }

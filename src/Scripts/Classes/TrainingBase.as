@@ -5,7 +5,7 @@
 
 import Scripts.Classes.*;
 
-class TrainingBase extends SlaveModule
+class Scripts.Classes.TrainingBase extends SlaveModule
 {
 	public var bEventsAllowed:Boolean;
 	//private var SMData:SlaveMaker;

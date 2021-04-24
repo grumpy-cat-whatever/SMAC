@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class SlaveItems extends SMSlaveCommon {
+class Scripts.Classes.SlaveItems extends SMSlaveCommon {
 
 	// Items
 	public var HarnessOK:Number;

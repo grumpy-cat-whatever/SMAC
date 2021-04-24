@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class HousesModule extends BaseModule
+class Scripts.Classes.HousesModule extends BaseModule
 {
 	public var Exploring:HouseExplore;
 	

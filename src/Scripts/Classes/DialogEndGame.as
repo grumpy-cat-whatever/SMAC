@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogEndGame extends DialogBase {
+class Scripts.Classes.DialogEndGame extends DialogBase {
 	
 	public var EndGameMenu:DialogEndGameMenu;
 	public var UseSkillPoints:DialogUseSkillPoints;

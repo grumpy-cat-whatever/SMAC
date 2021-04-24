@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class DialogTrainingLog extends DialogBase
+class Scripts.Classes.DialogTrainingLog extends DialogBase
 {		
 	private var arDiaryMovies:Array;			// internal attay for movieclips in the view screen
 	private var nDiaryDate:Number;			// first date shown on the view screen

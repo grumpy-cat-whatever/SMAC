@@ -6,7 +6,7 @@
 import Scripts.Classes.*;
 
 
-class PersonMerchantRinno extends Person {
+class Scripts.Classes.PersonMerchantRinno extends Person {
 		
 	public function PersonMerchantRinno(cg:Object, cc:Object) { 
 		super("Merchant", cg, 1, -10, true, cc);

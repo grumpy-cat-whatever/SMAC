@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogSelectGuildMembership extends DialogBase {
+class Scripts.Classes.DialogSelectGuildMembership extends DialogBase {
 		
 	// Constructor
 	public function DialogSelectGuildMembership(cg:Object)

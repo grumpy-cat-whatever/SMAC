@@ -8,7 +8,7 @@
 import Scripts.Classes.*;
 
 
-class PersonIdol extends Person {
+class Scripts.Classes.PersonIdol extends Person {
 		
 	public function PersonIdol(cg:Object, cc:Object) { 
 		super("Idol", cg, 20, 0, false, cc);

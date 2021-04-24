@@ -14,7 +14,7 @@
 import Scripts.Classes.*;
 
 
-class PersonOwner extends BaseModule {
+class Scripts.Classes.PersonOwner extends BaseModule {
 	
 	public var Id:Number;				// person/place number
 	public var PersonName:String;	// their name

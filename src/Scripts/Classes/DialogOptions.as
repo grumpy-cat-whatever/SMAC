@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogOptions extends DialogBase {
+class Scripts.Classes.DialogOptions extends DialogBase {
 	
 	// Options
 	public var TentaclesOn:Number;

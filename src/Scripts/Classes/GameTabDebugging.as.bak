@@ -7,7 +7,7 @@ import flash.display.BitmapData;
 import flash.geom.ColorTransform;
 import flash.geom.Transform;
 
-class GameTabDebugging extends GameTabBase {
+class Scripts.Classes.GameTabDebugging extends GameTabBase {
 	
 		
 	// Constructor

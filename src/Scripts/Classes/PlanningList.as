@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class PlanningList {
+class Scripts.Classes.PlanningList {
 	private var coreGame:Object;		// core game engine
 	public var slaveData:Object;		// associated slave girl details
 

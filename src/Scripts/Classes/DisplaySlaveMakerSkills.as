@@ -6,7 +6,7 @@ import flash.geom.ColorTransform;
 import flash.geom.Transform;
 import Scripts.Classes.*;
 
-class DisplaySlaveMakerSkills extends DisplayBase {
+class Scripts.Classes.DisplaySlaveMakerSkills extends DisplayBase {
 
 	// Constructor
 	public function DisplaySlaveMakerSkills(cg:Object)

@@ -7,7 +7,7 @@
 
 import Scripts.Classes.*;
 
-class ShopSalon extends Shop {
+class Scripts.Classes.ShopSalon extends Shop {
 		
 	// constructor
 	public function ShopSalon(mc:MovieClip, cg:Object, cc:Object)

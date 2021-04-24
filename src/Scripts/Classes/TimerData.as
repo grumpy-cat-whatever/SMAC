@@ -3,8 +3,8 @@
 
 import Scripts.Classes.*;
 
-class TimerData
-{
+class Scripts.Classes.TimerData
+ {
 	public var id:Number;		// actual timer object/handle
 	public var tdata:Object;	// arbitrary data for timer
 	public var bStopped:Boolean;	// is the timer stopped

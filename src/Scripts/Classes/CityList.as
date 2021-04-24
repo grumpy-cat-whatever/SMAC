@@ -5,8 +5,8 @@
 
 import Scripts.Classes.*;
 
-class CityList
-{
+class Scripts.Classes.CityList
+ {
 	private var arCities:Array;		// list of cities for current game
 	private var coreGame:Object;	// standard reference to the core game
 	

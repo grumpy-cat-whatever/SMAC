@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class XMLBase extends ExpressionParser {
+class Scripts.Classes.XMLBase extends ExpressionParser {
 	
 	// Private		
 	private var loadfnc:String;

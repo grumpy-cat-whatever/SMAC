@@ -6,7 +6,7 @@ import flash.geom.ColorTransform;
 import flash.geom.Transform;
 import Scripts.Classes.*;
 
-class DisplayIcons extends DisplayBase {
+class Scripts.Classes.DisplayIcons extends DisplayBase {
 	
 	// dickgirl - legacy to be removed
 	public var DickgirlXFIcon:MovieClip;

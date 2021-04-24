@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogSelectFaith extends DialogBase {
+class Scripts.Classes.DialogSelectFaith extends DialogBase {
 		
 	// Constructor
 	public function DialogSelectFaith(cg:Object)

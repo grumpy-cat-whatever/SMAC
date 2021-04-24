@@ -6,7 +6,7 @@
 import Scripts.Classes.*;
 
 
-class PersonBountyHunter extends Person {
+class Scripts.Classes.PersonBountyHunter extends Person {
 		
 	public function PersonBountyHunter(cg:Object, cc:Object) { 
 		super("BountyHunter", cg, 12, 100, false, cc);

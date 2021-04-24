@@ -7,7 +7,7 @@
 
 import Scripts.Classes.*;
 
-class FurriesModule extends SlaveModule
+class Scripts.Classes.FurriesModule extends SlaveModule
 {
 	public var FurryBondage:Number;
 	private var FurryBondagePlace:Number;

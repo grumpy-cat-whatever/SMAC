@@ -14,7 +14,7 @@
 // Translation status: COMPLETE
 import Scripts.Classes.*;
 
-class BitFlags {
+class Scripts.Classes.BitFlags {
 	private var arFlags:Array;		// array of Number
 	
 	public function BitFlags()

@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class DressSlaveMaker extends Dress {
+class Scripts.Classes.DressSlaveMaker extends Dress {
 	
 	// Functions
 	

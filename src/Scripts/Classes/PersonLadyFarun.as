@@ -50,7 +50,7 @@
 import Scripts.Classes.*;
 
 
-class PersonLadyFarun extends Person {
+class Scripts.Classes.PersonLadyFarun extends Person {
 		
 	public function PersonLadyFarun(cg:Object, cc:Object) { 
 		super("LadyFarun", cg, 9, -10, false, cc);

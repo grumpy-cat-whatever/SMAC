@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class ShopTailor extends Shop {
+class Scripts.Classes.ShopTailor extends Shop {
 		
 	// constructor
 	public function ShopTailor(cg:Object, cc:Object)

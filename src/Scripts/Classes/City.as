@@ -7,7 +7,7 @@
 
 import Scripts.Classes.*;
 
-class City extends SlaveModule
+class Scripts.Classes.City extends SlaveModule
 {
 	// Global City
 	public var bCurrent:Boolean;		// Is this the current City

@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class ActInfo {
+class Scripts.Classes.ActInfo {
 	
 	// Variables
 	private var coreGame:Object;			// core game engine

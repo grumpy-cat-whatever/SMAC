@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class ShopSlaveMarketMinor extends Shop {
+class Scripts.Classes.ShopSlaveMarketMinor extends Shop {
 	
 	private var mcSave:MovieClip;
 		

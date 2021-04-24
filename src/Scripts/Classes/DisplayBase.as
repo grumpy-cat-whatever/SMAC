@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DisplayBase extends BaseModule {
+class Scripts.Classes.DisplayBase extends BaseModule {
 	
 	private var nStartXPos:Number;
 	private var nStartYPos:Number;

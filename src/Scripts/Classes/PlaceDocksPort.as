@@ -5,7 +5,7 @@
 
 import Scripts.Classes.*;
 
-class PlaceDocksPort extends PlaceDocks
+class Scripts.Classes.PlaceDocksPort extends PlaceDocks
 {
 	// Constructor
 	public function PlaceDocksPort(mc:MovieClip, cg:Object, cc:City)

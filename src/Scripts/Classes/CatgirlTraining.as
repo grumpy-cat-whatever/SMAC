@@ -40,7 +40,7 @@
 // Translation status: INCOMPLETE
 import Scripts.Classes.*;
 
-class CatgirlTraining extends TrainingBase
+class Scripts.Classes.CatgirlTraining extends TrainingBase
 {
 	public var CatgirlEvents:Boolean;
 		

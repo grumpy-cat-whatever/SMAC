@@ -2,7 +2,7 @@
 
 import Scripts.Classes.*;
 
-class GenericSlave extends Scripts.Classes.GenericSlaveImages
+class Scripts.Classes.GenericSlave extends GenericSlaveImages
 {
 	private var Dress:MovieClip;
 	private var DressNaked:MovieClip;

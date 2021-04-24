@@ -11,7 +11,7 @@
 
 import Scripts.Classes.*;
 
-class GeneralArray extends Array {
+class Scripts.Classes.GeneralArray extends Array {
 	
 	// Constructor
 	public function GeneralArray()

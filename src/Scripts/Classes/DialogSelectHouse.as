@@ -10,7 +10,7 @@
 
 import Scripts.Classes.*;
 
-class DialogSelectHouse extends DialogBase {
+class Scripts.Classes.DialogSelectHouse extends DialogBase {
 	
 	private var nOldHouse:Number;
 	

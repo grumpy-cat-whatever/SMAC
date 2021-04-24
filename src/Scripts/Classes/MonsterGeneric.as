@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class MonsterGeneric extends Monster {
+class Scripts.Classes.MonsterGeneric extends Monster {
 	
 	public function MonsterGeneric(attack:Number, defence:Number, health:Number, speed:Number, desc:String, imagemc:Object, cg:Object) 
 	{ 

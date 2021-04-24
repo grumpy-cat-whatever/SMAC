@@ -6,7 +6,7 @@ import flash.geom.ColorTransform;
 import flash.geom.Transform;
 import Scripts.Classes.*;
 
-class DisplayGameWindow extends DisplayBase {
+class Scripts.Classes.DisplayGameWindow extends DisplayBase {
 	
 	// Tabs
 	private var gameTabs:TabGroup;

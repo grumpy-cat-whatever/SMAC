@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class CumslutTraining extends TrainingBase
+class Scripts.Classes.CumslutTraining extends TrainingBase
 {
 	public function CumslutTraining(cgm:Object)
 	{

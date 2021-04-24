@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class MonsterDevilGirl extends Monster {
+class Scripts.Classes.MonsterDevilGirl extends Monster {
 	
 	public function MonsterDevilGirl(attack:Number, defence:Number, health:Number, speed:Number, desc:String, imageno:Object) { 
 		super(attack, defence, health, speed, desc);

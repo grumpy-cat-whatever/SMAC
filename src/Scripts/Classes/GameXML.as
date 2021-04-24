@@ -3,7 +3,7 @@
 // Translation status: COMPLETE
 import Scripts.Classes.*;
 
-class GameXML extends XMLStatistics {
+class Scripts.Classes.GameXML extends XMLStatistics {
 		
 	// constructor (minimal)
 	public function GameXML(cg:Object)	{ super(cg); }

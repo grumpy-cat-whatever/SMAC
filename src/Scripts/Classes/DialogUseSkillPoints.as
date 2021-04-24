@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogUseSkillPoints extends DialogBase {
+class Scripts.Classes.DialogUseSkillPoints extends DialogBase {
 	
 	// Constructor
 	public function DialogUseSkillPoints(cg:Object)

@@ -6,7 +6,7 @@
 
 import Scripts.Classes.*;
 
-class SMEvents extends SMDemonicCock
+class Scripts.Classes.SMEvents extends SMDemonicCock
 {
 	//private var SMData:SlaveMaker;
 		

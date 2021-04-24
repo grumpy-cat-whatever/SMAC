@@ -5,7 +5,7 @@
 import Scripts.Classes.*;
 import flash.display.BitmapData;
 
-class BaseModule extends BitFlags
+class Scripts.Classes.BaseModule extends BitFlags
 {
 	//------------------------------
 	// Variables

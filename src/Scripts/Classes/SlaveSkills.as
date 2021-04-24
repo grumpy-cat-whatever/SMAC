@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class SlaveSkills extends SlaveItems {
+class Scripts.Classes.SlaveSkills extends SlaveItems {
 	
 	// Slave Type
 	// 

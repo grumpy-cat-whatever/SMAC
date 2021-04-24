@@ -16,7 +16,7 @@
 
 import Scripts.Classes.*;
 
-class SMTentacleHybrid extends SMUnusualCum
+class Scripts.Classes.SMTentacleHybrid extends SMUnusualCum
 {	
 		
 	public function SMTentacleHybrid(mc:MovieClip, cgm:Object) { super(mc, null, cgm); }

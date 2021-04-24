@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DisplayInformation extends DisplayBase {
+class Scripts.Classes.DisplayInformation extends DisplayBase {
 	
 	private var checkboxListenerContra:Object;
 

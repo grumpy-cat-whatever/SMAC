@@ -6,7 +6,7 @@ import flash.geom.ColorTransform;
 import flash.geom.Transform;
 import flash.geom.Matrix;
 
-class CoreGame {
+class Scripts.Classes.CoreGame {
 	
 	// Assistant
 	public var CurrentAssistant:SlaveModule;

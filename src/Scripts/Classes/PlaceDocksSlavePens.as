@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class PlaceDocksSlavePens extends PlaceDocks
+class Scripts.Classes.PlaceDocksSlavePens extends PlaceDocks
 {
 	// constructor
 	public function PlaceDocksSlavePens(mc:MovieClip, cg:Object, cc:City)

@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class GamePotions extends DialogBase {
+class Scripts.Classes.GamePotions extends DialogBase {
 		
 	private var checkboxListenerContra:Object;
 	

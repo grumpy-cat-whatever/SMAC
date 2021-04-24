@@ -5,7 +5,7 @@ import Scripts.Classes.*;
 import flash.geom.ColorTransform;
 import flash.geom.Transform;
 
-class XMLParser extends XMLBase {
+class Scripts.Classes.XMLParser extends XMLBase {
 	
 	// public variables
 	public var loopvar:Number;		// loop index use in for loop, often to reference current slave

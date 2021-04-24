@@ -5,7 +5,7 @@
 import Scripts.Classes.*;
 import mx.containers.*;
 
-class GameLanguage extends GameLanguageBase {
+class Scripts.Classes.GameLanguage extends GameLanguageBase {
 	
 	// public (see GameLanguageBase)
 	// overload with specific class, not Object

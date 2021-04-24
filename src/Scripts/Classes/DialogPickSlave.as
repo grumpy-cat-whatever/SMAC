@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogPickSlave extends DialogBase {
+class Scripts.Classes.DialogPickSlave extends DialogBase {
 	
 	// Pick an owned slave
 	// Constructor

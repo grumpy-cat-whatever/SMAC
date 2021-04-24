@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class Shop extends DialogBase {
+class Scripts.Classes.Shop extends DialogBase {
 
 	public var bAccessible:Boolean;		// can the place be visited
 	public var bInitialVisit:Boolean;	// first visit, can be turned away

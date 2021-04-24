@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class PlanningAction {
+class Scripts.Classes.PlanningAction {
 	private var coreGame:Object;		// core game engine
 	
 	public var PlanningTime:Number;

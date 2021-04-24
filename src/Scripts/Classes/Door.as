@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class Door {
+class Scripts.Classes.Door {
 	private var Locked:Boolean;
 	private var DoorEvent:Object;
 	private var mc:MovieClip;

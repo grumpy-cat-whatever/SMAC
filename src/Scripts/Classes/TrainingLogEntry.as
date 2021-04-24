@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class TrainingLogEntry {
+class Scripts.Classes.TrainingLogEntry {
 	public var Description:String;
 	public var LogDate:Number;
 	public var Tentacle:Boolean;

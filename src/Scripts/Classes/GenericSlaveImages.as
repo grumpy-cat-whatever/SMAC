@@ -2,7 +2,7 @@
 
 import Scripts.Classes.*;
 
-class GenericSlaveImages extends Scripts.Classes.SlaveModule
+class Scripts.Classes.GenericSlaveImages extends SlaveModule
 {
 	
 private var ldf:Object;

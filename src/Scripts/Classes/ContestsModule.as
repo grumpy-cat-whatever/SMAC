@@ -5,7 +5,7 @@
 
 import Scripts.Classes.*;
 
-class ContestsModule extends SlaveModule
+class Scripts.Classes.ContestsModule extends SlaveModule
 {
 	public var NumContest:Number;
 	public var Placing:Number;

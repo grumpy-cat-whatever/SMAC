@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class CityMardukane extends City {
+class Scripts.Classes.CityMardukane extends City {
 	
 	// The places instances
 	public var DocksPort:PlaceDocksPort;

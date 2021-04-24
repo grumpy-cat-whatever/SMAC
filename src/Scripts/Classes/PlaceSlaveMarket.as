@@ -5,7 +5,7 @@
 
 import Scripts.Classes.*;
 
-class PlaceSlaveMarket extends Place
+class Scripts.Classes.PlaceSlaveMarket extends Place
 {
 	private var qNum1:Number;
 	private var qNum2:Number;

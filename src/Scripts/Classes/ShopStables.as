@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class ShopStables extends Shop {
+class Scripts.Classes.ShopStables extends Shop {
 		
 	// constructor
 	public function ShopStables(cg:Object, cc:Object)

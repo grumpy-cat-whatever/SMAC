@@ -8,7 +8,7 @@
 
 import Scripts.Classes.*;
 
-class MasochistTraining extends TrainingBase
+class Scripts.Classes.MasochistTraining extends TrainingBase
 {
 	public function MasochistTraining(cgm:Object)
 	{

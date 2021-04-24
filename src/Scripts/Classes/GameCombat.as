@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class GameCombat extends DialogBase
+class Scripts.Classes.GameCombat extends DialogBase
 {
 	public var CombatTime:Number;		// current time of the combat
 	

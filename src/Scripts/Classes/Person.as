@@ -13,7 +13,7 @@
 import Scripts.Classes.*;
 
 
-class Person extends Place
+class Scripts.Classes.Person extends Place
 {
 	public var PersonName:String;	// their name
 	public var PersonGender:Number;	// their gender

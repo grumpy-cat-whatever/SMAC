@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class Slave extends SlaveActions {
+class Scripts.Classes.Slave extends SlaveActions {
 
 	//public var sNode:XMLNode;				// node for slave data, a shortcut reference to save lookups
 	//  - see SlaveActions for declaration

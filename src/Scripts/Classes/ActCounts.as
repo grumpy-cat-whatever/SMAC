@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class ActCounts {
+class Scripts.Classes.ActCounts {
 	// Variables
 	private var coreGame:Object;			// core game engine
 	private var slaveData:Object;		// associated slave girl details

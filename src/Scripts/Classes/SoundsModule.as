@@ -6,7 +6,7 @@
 import Scripts.Classes.*;
 
 
-class SoundsModule extends BaseModule
+class Scripts.Classes.SoundsModule extends BaseModule
 {
 	private var globalSound:Sound; 
 	private var arPlayingSounds:Array;

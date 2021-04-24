@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class ArmsArmour extends SMSlaveCommon  {
+class Scripts.Classes.ArmsArmour extends SMSlaveCommon  {
 
 	public var ArmourType:Number;
 	public var WeaponType:Number;

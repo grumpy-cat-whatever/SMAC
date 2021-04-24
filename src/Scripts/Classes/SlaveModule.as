@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class SlaveModule extends BaseModule
+class Scripts.Classes.SlaveModule extends BaseModule
 {
 	//------------------------------
 	// Variables

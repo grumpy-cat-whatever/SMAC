@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class SlaveDresses extends DressCommon {	
+class Scripts.Classes.SlaveDresses extends DressCommon {
 	
 	// Methods
 	

@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class PlaceDocks extends Place
+class Scripts.Classes.PlaceDocks extends Place
 {
 	// constructor
 	public function PlaceDocks(nn:String, mc:MovieClip, cg:Object, id:Number, cc:City)

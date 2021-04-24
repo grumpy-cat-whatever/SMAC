@@ -10,7 +10,7 @@
 
 import Scripts.Classes.*;
 
-class Place extends SlaveModule 
+class Scripts.Classes.Place extends SlaveModule
 {
 	public var Id:Number;				// person/place number
 	

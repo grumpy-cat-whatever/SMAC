@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class Dress {
+class Scripts.Classes.Dress {
 	// Variables
 	// saved
 	public var strName:String;			// name of the dress

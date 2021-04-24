@@ -5,7 +5,7 @@
 
 import Scripts.Classes.*;
 
-class GenericModule extends SlaveModule
+class Scripts.Classes.GenericModule extends SlaveModule
 {
 	public function GenericModule(mc:MovieClip, cgm:Object)
 	{

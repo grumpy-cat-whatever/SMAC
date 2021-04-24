@@ -11,7 +11,7 @@
 ***************************************************************/
 import Scripts.Classes.*;
 
-class ExpressionParser {
+class Scripts.Classes.ExpressionParser {
 
 	private var i:Number; 
 	private var c:String;

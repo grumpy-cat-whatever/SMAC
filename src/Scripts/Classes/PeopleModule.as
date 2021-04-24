@@ -7,7 +7,7 @@
 
 import Scripts.Classes.*;
 
-class PeopleModule extends BaseModule
+class Scripts.Classes.PeopleModule extends BaseModule
 {
 	// gossip. simple bit array
 	private var Gossip:Number;

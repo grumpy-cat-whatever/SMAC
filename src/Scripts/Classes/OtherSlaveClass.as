@@ -4,7 +4,7 @@
 import Scripts.Classes.*;
 import flash.display.BitmapData;
 
-class OtherSlaveClass extends BaseModule {
+class Scripts.Classes.OtherSlaveClass extends BaseModule {
 	
 	private var strOtherSlaveFilename:String = "";
 	private var oldfileOtherSlave:String = "";

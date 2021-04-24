@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class PonyTraining extends TrainingBase
+class Scripts.Classes.PonyTraining extends TrainingBase
 {
 	public function PonyTraining(cgm:Object)
 	{

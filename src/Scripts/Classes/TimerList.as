@@ -20,7 +20,7 @@ function PickASlave(ptitle:String, mainside:Boolean, filterfnc:Function, cfnc:Fu
 
 import Scripts.Classes.*;
 
-class TimerList extends TimerListBase
+class Scripts.Classes.TimerList extends TimerListBase
 {
 	public var arTimerArray:Array;
 	

@@ -5,7 +5,7 @@
 
 import Scripts.Classes.*;
 
-class PlaceRuins extends QuestEvilMine
+class Scripts.Classes.PlaceRuins extends QuestEvilMine
 {
 	// Images
 	

@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class SMInhumanAncestry extends SMMesmerism
+class Scripts.Classes.SMInhumanAncestry extends SMMesmerism
 {	
 		
 	public function SMInhumanAncestry(mc:MovieClip, cgm:Object) { super(mc, null, cgm); }

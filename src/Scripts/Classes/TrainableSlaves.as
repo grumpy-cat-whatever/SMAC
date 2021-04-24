@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class TrainableSlaves  {
+class Scripts.Classes.TrainableSlaves {
 	
 	public var coreGame:Object;			// core game engine
 

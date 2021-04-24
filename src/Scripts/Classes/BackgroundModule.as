@@ -8,7 +8,7 @@ import flash.display.BitmapData;
 import flash.geom.ColorTransform;
 import flash.geom.Transform;
 
-class BackgroundModule extends BaseModule
+class Scripts.Classes.BackgroundModule extends BaseModule
 {
 	// Images
 	private var lastBG:MovieClip;

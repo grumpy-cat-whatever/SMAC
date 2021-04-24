@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class PlaceDocksSlavePensSecure extends PlaceDocks
+class Scripts.Classes.PlaceDocksSlavePensSecure extends PlaceDocks
 {
 	public var itemstr:String;
 	

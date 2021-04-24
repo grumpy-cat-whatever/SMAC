@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogTitleScreen extends DialogBase
+class Scripts.Classes.DialogTitleScreen extends DialogBase
 {		
 	private var mcHowTo:MovieClip;
 	private var ss1:MovieClip;

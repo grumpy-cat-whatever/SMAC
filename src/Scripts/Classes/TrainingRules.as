@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class TrainingRules extends DialogBase {
+class Scripts.Classes.TrainingRules extends DialogBase {
 	
 	// the rules settings
 	public var RulesTalk:Number;

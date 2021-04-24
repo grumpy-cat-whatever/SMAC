@@ -6,7 +6,7 @@
 import Scripts.Classes.*;
 
 
-class PersonTena extends Person {
+class Scripts.Classes.PersonTena extends Person {
 		
 	public function PersonTena(cg:Object, cc:Object) { 
 		super("CuteLesbian", cg, 10, 0, false, cc);

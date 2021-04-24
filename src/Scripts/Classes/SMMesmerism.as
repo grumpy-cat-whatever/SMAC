@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class SMMesmerism extends SMTentacleHybrid
+class Scripts.Classes.SMMesmerism extends SMTentacleHybrid
 {	
 		
 	public function SMMesmerism(mc:MovieClip, cgm:Object) { super(mc, null, cgm); }

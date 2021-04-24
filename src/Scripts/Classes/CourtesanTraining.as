@@ -6,7 +6,7 @@
 
 import Scripts.Classes.*;
 
-class CourtesanTraining extends TrainingBase
+class Scripts.Classes.CourtesanTraining extends TrainingBase
 {
 	public function CourtesanTraining(cgm:Object)
 	{

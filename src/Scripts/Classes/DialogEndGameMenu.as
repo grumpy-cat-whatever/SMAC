@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogEndGameMenu extends DialogBase {
+class Scripts.Classes.DialogEndGameMenu extends DialogBase {
 	
 	private var lat:String;
 		

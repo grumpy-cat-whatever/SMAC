@@ -6,7 +6,7 @@ For a Magazine maybe something like "MxM: Man Love Manual"
 
 import Scripts.Classes.*;
 
-class ShopGeneralShop extends Shop {
+class Scripts.Classes.ShopGeneralShop extends Shop {
 	
 	private var nPriceNecklace:Number;		// price of the current piece of jewelry
 	public var nNecklaceIndex;				// the type of kewlry

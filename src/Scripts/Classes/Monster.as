@@ -3,8 +3,7 @@
 
 import Scripts.Classes.*;
 
-class Monster 
-{
+class Scripts.Classes.Monster {
 	private var MonsterAttack:Number;
 	private var MonsterDefence:Number;
 	private var MonsterHealth:Number;

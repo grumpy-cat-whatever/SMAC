@@ -21,8 +21,8 @@ NOTE: any return values in this base class are dummy values and meaningful value
 */
 import Scripts.Classes.*;
 
-class TimerListBase
-{	
+class Scripts.Classes.TimerListBase
+ {
 	// Add a Timer, using an index value
 	// get next available timer index value
 	public function GetNextTimerIdx() : Number { return 0; }

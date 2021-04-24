@@ -3,8 +3,8 @@
 
 import Scripts.Classes.*;
 
-class TrainingLog
-{
+class Scripts.Classes.TrainingLog
+ {
 	public var coreGame:Object;			// core game engine
 	private var arTrainingArray:Array;			// current list of TrainingLogEntry objects
 	private var Language:GameLanguageBase;		// common strings, translation tools and text functions

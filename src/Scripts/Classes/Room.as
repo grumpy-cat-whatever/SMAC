@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class Room {
+class Scripts.Classes.Room {
 	private var Explored:Boolean;
 	private var Type:Number;
 	private var Description:String;

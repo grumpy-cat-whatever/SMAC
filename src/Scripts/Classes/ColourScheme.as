@@ -3,8 +3,8 @@
 
 import Scripts.Classes.*;
 
-class ColourScheme
-{
+class Scripts.Classes.ColourScheme
+ {
 	// variables
 	private var coreGame:Object;
 	

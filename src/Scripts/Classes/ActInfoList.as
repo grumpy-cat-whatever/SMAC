@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class ActInfoList {
+class Scripts.Classes.ActInfoList {
 	
 	// Variables
 	public var ActArray:Array;

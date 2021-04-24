@@ -4,8 +4,8 @@
 
 import Scripts.Classes.*;
 
-class GameItemState
-{
+class Scripts.Classes.GameItemState
+ {
 	public var nItem:Number;
 	public var strLabel:String;
 	public var bShown:Boolean;

@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogSystem extends DialogBase {
+class Scripts.Classes.DialogSystem extends DialogBase {
 		
 	// Constructor
 	public function DialogSystem(cg:Object)

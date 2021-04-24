@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class PlaceEvent {
+class Scripts.Classes.PlaceEvent {
 	public var strName:String;
 	private var nTotal:Number;
 	public var nTotalToday:Number;

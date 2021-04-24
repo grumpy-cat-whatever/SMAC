@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class LoadedModules extends SlaveModule {
+class Scripts.Classes.LoadedModules extends SlaveModule {
 		
 	// private variables
 	private var evtData:SlaveModule;		// internal reference variable

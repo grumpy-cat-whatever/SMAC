@@ -6,7 +6,7 @@ import flash.geom.ColorTransform;
 import flash.geom.Transform;
 import Scripts.Classes.*;
 
-class DisplayCommonStatistics extends DisplayBase {
+class Scripts.Classes.DisplayCommonStatistics extends DisplayBase {
 
 	// Constructor
 	public function DisplayCommonStatistics(mc:MovieClip, cg:Object)

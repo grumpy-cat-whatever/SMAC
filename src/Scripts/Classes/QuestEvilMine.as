@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class QuestEvilMine extends Place
+class Scripts.Classes.QuestEvilMine extends Place
 {
 	public var EvilMineFlag:Number;
 		

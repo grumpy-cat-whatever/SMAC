@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class ShopGeneric extends Shop {
+class Scripts.Classes.ShopGeneric extends Shop {
 		
 	// constructor
 	public function ShopGeneric(cg:Object, nn:String, cc:Object, shopkeeper:String)

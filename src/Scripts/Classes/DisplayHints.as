@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DisplayHints extends DisplayBase {
+class Scripts.Classes.DisplayHints extends DisplayBase {
 		
 	private var bAllowed:Boolean;
 	private var strHint:String;

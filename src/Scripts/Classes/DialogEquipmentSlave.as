@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogEquipmentSlave extends DialogBase {
+class Scripts.Classes.DialogEquipmentSlave extends DialogBase {
 	
 	private var Items:GameItems;		// reference
 	

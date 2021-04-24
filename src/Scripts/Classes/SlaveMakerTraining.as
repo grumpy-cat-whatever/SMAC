@@ -5,7 +5,7 @@
 
 import Scripts.Classes.*;
 
-class SlaveMakerTraining extends TrainingBase
+class Scripts.Classes.SlaveMakerTraining extends TrainingBase
 {
 	public function SlaveMakerTraining(cgm:Object)
 	{

@@ -8,7 +8,7 @@
 
 import Scripts.Classes.*;
 
-class SuccubusTraining extends TrainingBase
+class Scripts.Classes.SuccubusTraining extends TrainingBase
 {
 	public function SuccubusTraining(cgm:Object)
 	{

@@ -6,7 +6,7 @@
 
 import Scripts.Classes.*;
 
-class FaeriesModule extends TrainingBase
+class Scripts.Classes.FaeriesModule extends TrainingBase
 {	
 	public function FaeriesModule(mc:MovieClip, cgm:Object)
 	{

@@ -7,7 +7,7 @@
 // Common to Slave and SlaveMaker
 import Scripts.Classes.*;
 
-class SMSlaveCommon extends DressCommon
+class Scripts.Classes.SMSlaveCommon extends DressCommon
 {
 	// Naming
 	public var Titles:String;

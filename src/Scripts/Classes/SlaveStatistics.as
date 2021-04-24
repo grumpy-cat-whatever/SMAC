@@ -2,7 +2,7 @@
 
 // SlaveStatistics - class defining the statistics for a slave
 
-class SlaveStatistics extends SlaveSkills {
+class Scripts.Classes.SlaveStatistics extends SlaveSkills {
 
 	// Gender details
 	public var SlaveGender:Number;			// their gender

@@ -2,7 +2,7 @@
 // Translation status: COMPLETE
 
 import Scripts.Classes.*;
-class HouseDetails extends Place {
+class Scripts.Classes.HouseDetails extends Place {
 	public var HouseType:Number;			// type of the house. An index into the list of <Houses> in Housing.xml
 	public var HouseName:String;			// the name of the house
 	public var CityName:String;				// name of the city the house is in

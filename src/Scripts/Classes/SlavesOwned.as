@@ -6,7 +6,7 @@
 
 import Scripts.Classes.*;
 
-class SlavesOwned extends ArmsArmour {
+class Scripts.Classes.SlavesOwned extends ArmsArmour {
 	
 	// Properties
 	

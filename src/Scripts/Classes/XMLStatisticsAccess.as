@@ -3,7 +3,7 @@
 // Translation status: COMPLETE
 import Scripts.Classes.*;
 
-class XMLStatisticsAccess extends XMLParser {
+class Scripts.Classes.XMLStatisticsAccess extends XMLParser {
 
 	private var slaveData:Slave;
 

@@ -6,7 +6,7 @@
 import Scripts.Classes.*;
 
 
-class PersonKnightShan extends Person {
+class Scripts.Classes.PersonKnightShan extends Person {
 		
 	public function PersonKnightShan(cg:Object, cc:Object) { 
 		super("Knight", cg, 6, -10, false, cc);

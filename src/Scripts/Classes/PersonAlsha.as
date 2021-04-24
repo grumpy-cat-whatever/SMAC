@@ -6,7 +6,7 @@
 import Scripts.Classes.*;
 
 
-class PersonAlsha extends Person {
+class Scripts.Classes.PersonAlsha extends Person {
 		
 	public function PersonAlsha(cg:Object, cc:Object) { 
 		super("SwimInstructor", cg, 17, 100, false, cc);

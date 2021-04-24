@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class DressCommon {
+class Scripts.Classes.DressCommon {
 	
 	private var coreGame:Object;		// core game engine (_root for actionscript 2)
 

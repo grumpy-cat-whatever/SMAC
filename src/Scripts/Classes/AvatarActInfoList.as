@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class AvatarActInfoList extends ActInfoList {
+class Scripts.Classes.AvatarActInfoList extends ActInfoList {
 	
 	// Variables
 	public var frame:Number;

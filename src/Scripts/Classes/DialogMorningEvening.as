@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogMorningEvening extends DialogBase
+class Scripts.Classes.DialogMorningEvening extends DialogBase
 {		
 	//private var MorningEveningButton:ButtonBase;
 	

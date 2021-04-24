@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class PlannableActions {
+class Scripts.Classes.PlannableActions {
 	private var coreGame:Object;			// core game engine
 	private var arPlanArray:Array;
 	public var strLastTitle:String;

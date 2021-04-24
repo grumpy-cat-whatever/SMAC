@@ -11,7 +11,7 @@
 
 import Scripts.Classes.*;
 
-class LesbianGayTraining extends TrainingBase
+class Scripts.Classes.LesbianGayTraining extends TrainingBase
 {
 	
 	public var LesbianTraining:Boolean;

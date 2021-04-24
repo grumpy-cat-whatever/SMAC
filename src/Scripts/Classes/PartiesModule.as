@@ -5,7 +5,7 @@
 
 import Scripts.Classes.*;
 
-class PartiesModule extends SlaveModule
+class Scripts.Classes.PartiesModule extends SlaveModule
 {
 	private var TimeToProstituteParty:Number;
 	private var TimeToHighClassParty:Number;

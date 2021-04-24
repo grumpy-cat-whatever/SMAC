@@ -3,7 +3,7 @@
 // Translation status: COMPLETE
 import Scripts.Classes.*;
 
-class XMLStatistics extends XMLStatisticsAccess {
+class Scripts.Classes.XMLStatistics extends XMLStatisticsAccess {
 
 	// constructor (minimal)
 	public function XMLStatistics(cg:Object)	{ super(cg); }

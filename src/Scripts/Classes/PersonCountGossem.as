@@ -6,7 +6,7 @@
 import Scripts.Classes.*;
 
 
-class PersonCountGossem extends Person {
+class Scripts.Classes.PersonCountGossem extends Person {
 		
 	public function PersonCountGossem(cg:Object, cc:Object) { 
 		super("Count", cg, 7, 0, false, cc);

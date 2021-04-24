@@ -8,7 +8,7 @@ import Scripts.Classes.*;
 import flash.geom.ColorTransform;
 import flash.geom.Transform;
 
-class TabBase {
+class Scripts.Classes.TabBase {
 	
 	// Variables
 	public var group:Object;			// core game engine

@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogEquipmentSlaveMaker extends DialogBase {
+class Scripts.Classes.DialogEquipmentSlaveMaker extends DialogBase {
 	
 	private var weaponsShown:Number;
 	private var cbobj:Object;

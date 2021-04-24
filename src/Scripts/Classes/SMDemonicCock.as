@@ -6,7 +6,7 @@
 
 import Scripts.Classes.*;
 
-class SMDemonicCock extends SMInhumanAncestry
+class Scripts.Classes.SMDemonicCock extends SMInhumanAncestry
 {		
 	public function SMDemonicCock(mc:MovieClip, cgm:Object) { super(mc, null, cgm); }
 

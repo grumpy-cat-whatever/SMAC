@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogBase extends DisplayBase {
+class Scripts.Classes.DialogBase extends DisplayBase {
 
 	private var nCurrentPage:Number;
 	private var nTotPages:Number;

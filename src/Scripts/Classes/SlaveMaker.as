@@ -8,7 +8,7 @@
 
 import Scripts.Classes.*;
 
-class SlaveMaker extends SlavesOwned {
+class Scripts.Classes.SlaveMaker extends SlavesOwned {
 	
 	// Properties
 	

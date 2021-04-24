@@ -9,7 +9,7 @@
 
 import Scripts.Classes.*;
 
-class DialogSelectCity extends DialogBase {
+class Scripts.Classes.DialogSelectCity extends DialogBase {
 		
 	private var citiesList:CityList;
 	

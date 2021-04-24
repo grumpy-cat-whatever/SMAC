@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class PlaceBeachSwim extends PlaceBeach
+class Scripts.Classes.PlaceBeachSwim extends PlaceBeach
 {
 	// constructor
 	public function PlaceBeachSwim(mc:MovieClip, cg:Object, cc:City)

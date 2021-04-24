@@ -6,7 +6,7 @@
 
 import Scripts.Classes.*;
 
-class Avatar {
+class Scripts.Classes.Avatar {
 	
 	// Variables
 	private var SMData:Object;		// parent class instance, the Slave class instance or _root

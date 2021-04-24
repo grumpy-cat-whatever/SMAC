@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class ShopArmoury extends Shop {
+class Scripts.Classes.ShopArmoury extends Shop {
 
 	private var bWeaponPage:Boolean;		// true if showing weapons
 	

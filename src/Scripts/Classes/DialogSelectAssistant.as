@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogSelectAssistant extends DialogBase {
+class Scripts.Classes.DialogSelectAssistant extends DialogBase {
 		
 	private var cbasListener:Object;
 	

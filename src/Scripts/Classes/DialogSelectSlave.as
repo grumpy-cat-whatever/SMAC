@@ -4,7 +4,7 @@
 
 import Scripts.Classes.*;
 
-class DialogSelectSlave extends DialogBase {
+class Scripts.Classes.DialogSelectSlave extends DialogBase {
 	
 	private var mcSlaveSelectionBG:MovieClip;
 		

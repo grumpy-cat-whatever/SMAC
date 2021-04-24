@@ -3,7 +3,7 @@
 
 import Scripts.Classes.*;
 
-class MonsterAyane extends Monster {
+class Scripts.Classes.MonsterAyane extends Monster {
 	
 	private var Armed:Boolean;
 	
