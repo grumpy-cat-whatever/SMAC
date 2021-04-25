@@ -283,7 +283,7 @@ class Scripts.Classes.Avatar {
 			i--;
 			if (loadedArray[i].ext == "swf") {
 				avatarImages.ClearImage(loadedArray[i]);
-				removeMovieClip(loadedArray[i]);
+				loadedArray[i].removeMovieClip();
 				delete loadedArray[i];
 				loadedArray.splice(i, 1);
 			} else {

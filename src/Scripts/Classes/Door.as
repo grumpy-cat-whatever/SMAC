@@ -41,7 +41,7 @@ class Scripts.Classes.Door {
 	public function Destroy()
 	{
 		mc._visible = false;
-		removeMovieClip(mc);
+		mc.removeMovieClip();
 		delete mc;
 		_root.HouseEvents.depth--;
 	}

@@ -152,8 +152,8 @@ class Scripts.Classes.DialogTitleScreen extends DialogBase
 		mcHowTo.Leave.tabChildren = true;
 		mcHowTo.Leave.Btn.onPress = function() {
 			ti.Beep();
-			removeMovieClip(ti.ss1);
-			removeMovieClip(ti.ss2);
+			ti.ss1.removeMovieClip();
+			ti.ss2.removeMovieClip();
 			ti.ss1 = null;
 			ti.ss2 = null;
 			ti.coreGame.HideImages();
@@ -191,8 +191,8 @@ class Scripts.Classes.DialogTitleScreen extends DialogBase
 			nCurrentPage = page;
 			if (nCurrentPage < 5) mcHowTo.gotoAndStop(nCurrentPage);
 			else mcHowTo.gotoAndStop(2);
-			removeMovieClip(ss1);
-			removeMovieClip(ss2);
+			ss1.removeMovieClip();
+			ss2.removeMovieClip();
 			ss1 = null;
 			ss2 = null;
 			switch(nCurrentPage) {

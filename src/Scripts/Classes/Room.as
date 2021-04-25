@@ -96,7 +96,7 @@ class Scripts.Classes.Room {
 	{
 		delete stairs;
 		mc._visible = false;
-		removeMovieClip(mc);
+		mc.removeMovieClip();
 		delete mc;
 		_root.HouseEvents.depth--;
 	}
