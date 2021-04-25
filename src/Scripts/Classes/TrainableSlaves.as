@@ -113,7 +113,7 @@ class Scripts.Classes.TrainableSlaves {
 			XMLData.LoadXML("Assistants/Assistants" + loadednum + ".xml", undefined, undefined, xData, true);
 			assistantlv = new LoadVars();
 			var ti:TrainableSlaves = this;
-			assistantlv.onLoad = function(success:Boolean) { ti.AssistantLoaded(success); }
+			assistantlv.onLoad = function(success1:Boolean) { ti.AssistantLoaded(success1); }
 			loadednum++;
 			assistantlv.load("Assistants/Assistants" + loadednum + ".txt");
 			//trace("..loading assistant file Assistants/Assistants" + loadednum);	
@@ -173,7 +173,7 @@ class Scripts.Classes.TrainableSlaves {
 					XMLData.LoadXML("Assistants/Assistants.xml", undefined, undefined, xData, true);
 					assistantlv = new LoadVars();
 					var ti:TrainableSlaves = this;
-					assistantlv.onLoad = function(success:Boolean) { ti.AssistantLoaded(success); }
+					assistantlv.onLoad = function(success1:Boolean) { ti.AssistantLoaded(success1); }
 					assistantlv.load("Assistants/Assistants.txt");
 					return;
 				}
@@ -222,7 +222,7 @@ class Scripts.Classes.TrainableSlaves {
 		slv.xmlloaded = false;
 		arSlaveList.push(slv);
 		var ti:TrainableSlaves = this;
-		slv.onLoad = function(success:Boolean) { ti.SlaveTxtLoadedList(success); }
+		slv.onLoad = function(success1:Boolean) { ti.SlaveTxtLoadedList(success1); }
 	
 		if (bSlaveEnglish) {
 			slv.load("Slaves/SlaveGirl" + loadednum + ".txt");

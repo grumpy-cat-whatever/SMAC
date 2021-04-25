@@ -119,8 +119,9 @@ class Scripts.Classes.CityList
 	public function SetCityCurrent(curr)
 	{
 		var cc:City = curr;
+		var str:String;
 		if (typeof(curr) == "string") {
-			var str:String = curr.toLowerCase();
+			str = curr.toLowerCase();
 			cc = null;
 			for (var i:Number = 0; i < arCities.length; i++) {
 				arCities[i].bCurrent = false;

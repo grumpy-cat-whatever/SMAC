@@ -50,7 +50,7 @@ class Scripts.Classes.GamePotions extends DialogBase {
 			}
 			var SlavePicked:Function = function () { ti.ShowDialogContents(); }
 			ti.coreGame.PickASlave(ti.Language.GetHtml("WhoWillDrink", "Potions"), true, SlaveFilter, SlavePicked);
-			coreGame.HideAllPeople();
+			ti.coreGame.HideAllPeople();
 		}
 		
 		super.ViewDialog();

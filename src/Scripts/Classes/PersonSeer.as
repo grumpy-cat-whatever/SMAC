@@ -124,9 +124,9 @@ class Scripts.Classes.PersonSeer extends Person {
 		// Her reading
 		mcBase.SlaveReadingTitle.htmlText = Language.GetHtml("SeerSlaveReading", "Shopping", true);
 		
-		var EstimateStat:Function = function (val:Number, premain:Number) : Number
+		var EstimateStat:Function = function (val:Number, premain1:Number) : Number
 		{
-			var newn:Number = val / premain;
+			var newn:Number = val / premain1;
 			if (newn > 100) newn = 100;
 			return newn;
 		}

@@ -136,7 +136,7 @@ class Scripts.Classes.DialogEquipmentSlave extends DialogBase {
 		mc.onRollOver = function() { ti.coreGame.SetMovieColour(mc, 200, 200, 200); }
 		mc.onRollOut = function()
 		{ 
-			var mc:MovieClip = ti.mcBase["TabButton" + ti.nCurrentPage];
+			mc = ti.mcBase["TabButton" + ti.nCurrentPage];
 			for (var i:Number = 1; i < 9; i++) ti.coreGame.SetMovieColour(ti.mcBase["TabButton" + i], 0, 0, 0);
 			ti.coreGame.SetMovieColour(mc, 50, 50, 50);
 		}
@@ -271,7 +271,7 @@ class Scripts.Classes.DialogEquipmentSlave extends DialogBase {
 	{
 		var mc:MovieClip = mcBase["Item" + btn];
 		mc.itemno = item;
-		var gi:GameItemState = Items.GetItemState(item);
+		gi = Items.GetItemState(item);
 		gi.mc = mc;
 		if (shortcut == undefined || shortcut == "" && gi.shortcut != "") shortcut = gi.shortcut;
 		SetEquipmentButtonState(undefined, worn, available, actlabel != undefined ? actlabel : gi.strLabel, shortcut, gi)

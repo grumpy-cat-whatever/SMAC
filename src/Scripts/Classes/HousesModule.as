@@ -534,11 +534,12 @@ class Scripts.Classes.HousesModule extends BaseModule
 	public function ShowCustomHouse(clabel:Object, xpos:Number, ypos:Number, hint:String)
 	{
 		var idx:Number;
+		var chouse:HouseDetails;
 		if (!isNaN(Number(clabel))) {
 			FindCustomHouseIdx(Number(clabel)).mcBase._visible = true;
 			return;
 		} else {
-			var chouse:HouseDetails = FindCustomHouse(String(clabel));
+			chouse = FindCustomHouse(String(clabel));
 			if (chouse != null) {
 				chouse.mcBase._visible = true;
 				chouse.SetAccessible(true);
@@ -803,7 +804,7 @@ class Scripts.Classes.HousesModule extends BaseModule
 			var rheight:Number;
 			var evt:String;
 			var type:Number;
-			var desc:String;
+			//var desc:String;
 			var rot:Number;
 			var quiet:Boolean;
 			

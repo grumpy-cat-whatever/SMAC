@@ -200,7 +200,8 @@ class Scripts.Classes.City extends SlaveModule
 		if (s != "") s = "/Areas/" + s;
 		
 		areaNode = null;
-		for (var cNode:XMLNode = areasNode; cNode != null; cNode = cNode.nextSibling) {
+		var cNode:XMLNode;
+		for (cNode = areasNode; cNode != null; cNode = cNode.nextSibling) {
 			if (cNode.nodeName.toLowerCase() == "area") {
 				if (Language.GetXMLString("Name", cNode.firstChild) == strCurrentArea) {
 					areaNode = cNode.firstChild;
@@ -705,10 +706,10 @@ class Scripts.Classes.City extends SlaveModule
 		var image:MovieClip = mcTakeAWalkMenu.Places.attachMovie("Walk - Standard Place", "Location" + mcTakeAWalkMenu.Places.getNextHighestDepth(), mcTakeAWalkMenu.Places.getNextHighestDepth());
 		image.ldf = new Object();
 		var ti:City = this;
-		image.ldf.LoadDoneImage = function(image:MovieClip) {
+		image.ldf.LoadDoneImage = function(image1:MovieClip) {
 			//trace("load done");
-			if (image.loaderror == true) return;  // ignore failed load
-			ti.LoadedWalkPlace(image);
+			if (image1.loaderror == true) return;  // ignore failed load
+			ti.LoadedWalkPlace(image1);
 		}	
 		
 		// Tentacle Icon

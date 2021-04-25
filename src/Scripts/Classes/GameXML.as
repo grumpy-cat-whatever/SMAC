@@ -673,12 +673,12 @@ class Scripts.Classes.GameXML extends XMLStatistics {
 		
 		dNode = GetNodeC(iNode, "CustomUniform1");
 		if (dNode != null) {
-			var str:String = coreGame.Language.GetHtml("Name", dNode);
+			str = coreGame.Language.GetHtml("Name", dNode);
 			if (str != "") slaveData.SetCustomUniform(1, str);
 		}
 		dNode = GetNodeC(iNode, "CustomUniform2");
 		if (dNode != null) {
-			var str:String = coreGame.Language.GetHtml("Name", dNode);
+			str = coreGame.Language.GetHtml("Name", dNode);
 			if (str != "") slaveData.SetCustomUniform(2, str);
 		}
 	}

@@ -77,16 +77,16 @@ class Scripts.Classes.TabGroup {
 		tb.PositionTab(newx, newy, newwidth, newheight);
 		
 		var ti:TabGroup = this;
-		mc.mcTab.onPress = function() { 
-			var tb:TabBase = this._parent.tb;
+		mc.mcTab.onPress = function() {
+
 			tb.group.SelectTab(tb);
 		}
-		mc.mcTab.onRollOver = function() { 
-			var tb:TabBase = this._parent.tb;
+		mc.mcTab.onRollOver = function() {
+
 			tb.group.RollOverTab(tb);
 		}
-		mc.mcTab.onRollOut = function() { 
-			var tb:TabBase = this._parent.tb;
+		mc.mcTab.onRollOut = function() {
+
 			tb.group.RollOutTab(tb);
 		}
 		

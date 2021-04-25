@@ -228,7 +228,7 @@ class Scripts.Classes.Avatar {
 			if (img.loaderror != true) return;  // ignore successful loads
 			if (tgt.frame == -1000) return;	// hidden since display started
 			
-			var mv:String = "";
+			mv = "";
 			
 			// image failed to load
 			// check the default image provided

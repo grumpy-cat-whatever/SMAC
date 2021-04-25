@@ -253,7 +253,7 @@ class Scripts.Classes.GameLoadSave extends DialogBase {
 				while (--i >= 0) {
 					var cityo:Object = cookiecity.data.Cities[i];
 					if (cityo.bCurrent) {
-						var nm:String = cityo.CityName;
+						nm = cityo.CityName;
 						if (nm == undefined) nm = "Mardukane";
 						strCity = nm;
 						break;

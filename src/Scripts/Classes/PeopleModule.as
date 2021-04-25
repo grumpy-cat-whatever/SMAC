@@ -316,8 +316,8 @@ class Scripts.Classes.PeopleModule extends BaseModule
 	{
 		var iTotal:Number = tot == undefined ? 16 : tot;
 		var unheard:Number = 0;
-	
-		for (var i:Number = 0; i < iTotal; i++) {
+		var i:Number;
+		for (i = 0; i < iTotal; i++) {
 			if ((Gossip & (1 << i)) == 0) unheard++;
 		}
 		if (newg) {

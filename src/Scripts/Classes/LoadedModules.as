@@ -199,7 +199,7 @@ class Scripts.Classes.LoadedModules extends SlaveModule {
 		
 		var ti:LoadedModules = this;
 		loadListenerModule.modulename = "Events/" + module;
-		loadListenerModule.onLoadInit = function(module:MovieClip) { ti.ExternalEventLoaded(module, this.modulename); }
+		loadListenerModule.onLoadInit = function(module1:MovieClip) { ti.ExternalEventLoaded(module1, this.modulename); }
 		loadListenerModule.onLoadError = function(target_mc:MovieClip, errorCode:String, httpStatus:Number) { trace("error"); }
 		mcLoaderModule.loadClip(loadListenerModule.modulename, image);
 	}
@@ -2440,16 +2440,18 @@ class Scripts.Classes.LoadedModules extends SlaveModule {
 	
 	private function CreateSMClass(strClass:String, mv:MovieClip, sd:Object, core:Object) : SlaveModule
 	{
-		// try Scripts 'folder'
+		// try Classes 'folder'
 		var obj:Object = FindSlaveClass(_global["Classes"], strClass);
 		var sm:SlaveModule = obj.main(mv, sd, core);
+		var strObj:String;
+		
 		if (sm != null) {
 			trace("create " + strObj);
 			return sm;
 		}
 			
 		// try base folder only, do not iterate containing objects
-		for (var strObj:String in _global) {
+		for (strObj in _global) {
 			if (strObj == strClass) {
 				trace("create " + strObj);
 				return _global[strObj].main(mv, sd, core);

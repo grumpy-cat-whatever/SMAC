@@ -103,8 +103,8 @@ class Scripts.Classes.ShopGeneralShop extends Shop {
 		{
 			if (!ti.mcBase.BtnPlus._visible)ti. mcBase.Quantity.text = ti.PurchaseQuantity;
 			else {
-				Timers.AddTimer(
-					setInterval(ti, "ChangeQuantityDelayed", 200, Timers.GetNextTimerIdx())
+				ti.Timers.AddTimer(
+					setInterval(ti, "ChangeQuantityDelayed", 200, ti.Timers.GetNextTimerIdx())
 				);
 			}
 		}

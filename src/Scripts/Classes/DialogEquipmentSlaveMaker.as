@@ -133,7 +133,7 @@ class Scripts.Classes.DialogEquipmentSlaveMaker extends DialogBase {
 	
 		var ti:DialogEquipmentSlaveMaker = this;
 		image._visible = true;
-		image.ItemButton.onRollOut = function() { HideHints(true); }
+		image.ItemButton.onRollOut = function() { ti.HideHints(true); }
 		image.ItemButton.onRollOver = function() {
 			ti.SMItemHintRollOver(this);
 		}
@@ -280,7 +280,7 @@ class Scripts.Classes.DialogEquipmentSlaveMaker extends DialogBase {
 				ti.ShowWeaponHint(this);
 			}
 		}
-		mc.onRollOut = function() { HideHints(true); SetMovieColour(this, 0, 0, 0); };
+		mc.onRollOut = function() { ti.HideHints(true); ti.SetMovieColour(this, 0, 0, 0); };
 		ShowOtherSMEquipment();
 	}
 	
@@ -393,6 +393,7 @@ class Scripts.Classes.DialogEquipmentSlaveMaker extends DialogBase {
 		if (SMData.SMFeeldoOK == 1) AddText("  " + Language.GetHtml("Feeldo", "Equipment") + "\r\r");
 		
 		var owned:Boolean = false;
+		var i:Number;
 		for (i = 1; i < 32; i++) {
 			if (SMData.IsArmourOwned(i)) {
 				AddText("  " + SMData.GetArmourName(i));
