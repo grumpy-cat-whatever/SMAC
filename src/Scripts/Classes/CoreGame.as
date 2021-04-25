@@ -393,7 +393,7 @@ class Scripts.Classes.CoreGame {
 		// Save Data
 	public function GetSaveData(so:String) : SharedObject
 	{
-		return _parent.GetSaveData(so);
+		return _global._parent.GetSaveData(so);
 	}
 	
 
