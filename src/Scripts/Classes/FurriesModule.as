@@ -246,7 +246,7 @@ class Scripts.Classes.FurriesModule extends SlaveModule
 					PersonSpeak(41, "I understand from my husband's guard that you have met his slave Lia. He dearly loves that girl, but he thinks of nothing and <b>no-one</b> else.\r\rDespite our arranged marriage, I love my husband and want him to be happy, even if it is with that slave. I have also heard that she hates slavery and wants to be free. I could free her if I wanted, but it would make my husband unhappy.", true);
 					AddText("\r\r" + coreGame.SlaveVerb("want") + " Lia to be free, and feels #persononsenowner's husband needs to free Lia, his obsession is unhealthy.\r\r");
 					AskHerQuestions(8513, 8514, 8515, 0, "Free Lia to help husband", "Free Lia the rival","Insist husband be equal in attention", "", "What will #slave suggest?\r");	
-					return;
+					return undefined;
 					
 				} else coreGame.modulesList.Parties.HighClassParty(8078);
 				return true;

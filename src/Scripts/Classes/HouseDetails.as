@@ -192,7 +192,7 @@ class Scripts.Classes.HouseDetails extends Place {
 	
 	public function InitialiseHouseByNumber(type:Number) : HouseDetails
 	{
-		if (type == -1) return;
+		if (type == -1) return undefined;
 		if (type == undefined) type = HouseType;
 		
 		var curr:Number = 0;

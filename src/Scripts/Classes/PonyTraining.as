@@ -263,12 +263,12 @@ class Scripts.Classes.PonyTraining extends TrainingBase
 		
 		if (coreGame.IsCatgirl()) {
 			SetLangText("NoPonygirlCatgirls", "SlaveTrainings/Catgirl");
-			return;
+			return undefined;
 		}
 		if (coreGame.PonygirlInterest > coreGame.sPonyTrainer) {
 			SetText("You start to discuss life as " + Plural("a ponyslave") + " but " + SlaveVerb("look") + " almost disgusted and completely, emphatically refuses.\r\rYou will have to learn more about training such slaves before attempting to suggest this again.");
 			coreGame.Refused(17, "", "", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, -15, -2, 0, 0, -1, -15, 0);
-			return;
+			return undefined;
 		}
 		if (coreGame.TestObedience(coreGame.DifficultyPonygirl, coreGame.Action)) {
 			if (coreGame.TotalBondage < 5) {

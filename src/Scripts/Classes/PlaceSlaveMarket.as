@@ -189,7 +189,7 @@ class Scripts.Classes.PlaceSlaveMarket extends Place
 			AddText("but no-one seems very interested and you take #slave home, a little disappointed.\r\rYour reputation may of suffered a little from this poor showing.");
 			SMData.SMPoints(0, 0, 0, 0, 0, 0, 0, -1 * ((50 - coreGame.Score) / 10), 0, 0, 0, 0, 0);
 			Points(-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -0.5, 0, -0.1, 0, 0, 0, 0);
-			return;
+			return undefined;
 		} else if (slaveData.VarCharisma < 30 && PercentChance(chc)) {
 			AddText("and there is a little interest in #slave and you get a couple of compliments. The only complaint is that #slave could be prettier.");
 			SMData.SMPoints(0, 0, 0, 0, 1, 0, 0, 0.1, 0, 0, 0, 0, 1);

@@ -497,14 +497,14 @@ class Scripts.Classes.DialogEquipmentSlave extends DialogBase {
 		}
 		
 		switch(keya) {
-			case 48: ChangeDress(0); return;
-			case 49: ChangeDress(-1); return;
-			case 50: ChangeDress(-2); return;
-			case 51: ChangeDress(-3); return;
-			case 52: ChangeDress(-4); return;
-			case 53: ChangeDress(-5); return;
-			case 54: ChangeDress(-6); return;
-			case 75: ChangeDress(-10); return;
+			case 48: ChangeDress(0); return undefined;
+			case 49: ChangeDress(-1); return undefined;
+			case 50: ChangeDress(-2); return undefined;
+			case 51: ChangeDress(-3); return undefined;
+			case 52: ChangeDress(-4); return undefined;
+			case 53: ChangeDress(-5); return undefined;
+			case 54: ChangeDress(-6); return undefined;
+			case 75: ChangeDress(-10); return undefined;
 			case 65: Items.ChangeItem(13); break;
 			case 66: Items.ChangeItem(5); break;
 			case 67: Items.ChangeItem(17); break;

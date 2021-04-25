@@ -106,7 +106,7 @@ class Scripts.Classes.TimerList extends TimerListBase
 	
 	public function GetNamedTimerData(str:String) : Object {
 		var i:Number = arTimerArray.length;
-		if (i == undefined || str == undefined || i == 0) return;
+		if (i == undefined || str == undefined || i == 0) return undefined;
 		var ti:TimerData;
 		while (--i >= 0) {
 			ti = arTimerArray[i];

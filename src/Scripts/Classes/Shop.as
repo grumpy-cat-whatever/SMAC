@@ -312,9 +312,9 @@ class Scripts.Classes.Shop extends DialogBase {
 		coreGame.HideStatChangeIcons();
 		coreGame.genNumber = coreGame.ObjectChoice;
 		
-		if (coreGame.SlaveGirl.DoTailorYes(coreGame.ObjectChoice < 0) == true) return;
-		if (coreGame.CurrentAssistant.DoTailorYesAsAssistant(coreGame.ObjectChoice < 0) == true) return;
-		if (XMLData.XMLEvent("BuyFromShop", true)) return;
+		if (coreGame.SlaveGirl.DoTailorYes(coreGame.ObjectChoice < 0) == true) return undefined;
+		if (coreGame.CurrentAssistant.DoTailorYesAsAssistant(coreGame.ObjectChoice < 0) == true) return undefined;
+		if (XMLData.XMLEvent("BuyFromShop", true)) return undefined;
 		
 		BuyFromShop(coreGame.ObjectChoice); 
 	

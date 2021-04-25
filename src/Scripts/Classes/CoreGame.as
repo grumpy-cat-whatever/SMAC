@@ -348,10 +348,10 @@ class Scripts.Classes.CoreGame {
 		FurriesOn = true;
 		NonHumansOn = true;
 		SandboxOn = false;
-		SandboxMode;
+		SandboxMode = undefined;
 		Clock24On = false;
 		FullscreenOn = true;
-		LastUpdateCheck;
+		LastUpdateCheck = undefined;
 		StatIcons = true;
 		StatImagesOn = true;
 		SoundsOn = true;

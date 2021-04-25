@@ -478,7 +478,7 @@ class Scripts.Classes.ShopTailor extends Shop {
 				break;
 			case 77: 
 				if (sd.SellMaidUniform == 1 || coreGame.PersonIndex == -100) { mcBase.BtnMaidUniform.onPress(); return true; }
-				return;
+				return undefined;
 			case 83: 
 				if (sd.SellSwimsuit == 1 || coreGame.PersonIndex == -100) { mcBase.BtnSwimsuit.onPress(); return true; }
 				break;
