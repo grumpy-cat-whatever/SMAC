@@ -1130,7 +1130,7 @@ class Scripts.Classes.DisplayGameWindow extends DisplayBase {
 			}
 		}
 		if (SystemMenu.IsShown()) {
-			if (SystemMenu.Shortcuts(keya, key, bControl)) return;
+			if (SystemMenu.Shortcuts(keya, key, bControl)) return undefined;
 		}
 		if (keya == 34 || keya == 33) {		// Page Up/Down
 			if (keya == 34) coreGame.StatTab++;

@@ -450,7 +450,7 @@ class Scripts.Classes.SlaveModule extends BaseModule
 	
 	public function MeetPersonAsAssistant(person:Number, choice:Number, personstr:String, say:String, evt:String) : Boolean { return false; }
 	
-	public function AfterMeetPersonAsAssistant(person:Number, choice:Number, evt:String) { }
+	public function AfterMeetPersonAsAssistant(person:Number, choice:Number, evt:String) { return undefined; }
 
 	// Review screen options
 	
@@ -925,7 +925,7 @@ class Scripts.Classes.SlaveModule extends BaseModule
 	
 	public function MeetPerson(personno:Number, choice:Number, personstr:String, say:String, evt:String) : Boolean { return false; }
 	
-	public function AfterMeetPerson(person:Number, choice:Number, evt:String) { }
+	public function AfterMeetPerson(person:Number, choice:Number, evt:String) { return undefined; }
 	
 	// The following are OBSOLETE Meeting function
 	// generally use the above MeetPerson and AfterMeetPerson functions. See Base.xml for person numbers

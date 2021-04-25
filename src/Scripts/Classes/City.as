@@ -1116,6 +1116,8 @@ class Scripts.Classes.City extends SlaveModule
 		//switch(People.GetGossip(newg, 16)) {
 		//}
 		//PersonSpeakEnd();
+		
+		return undefined;
 	}
 	
 	//
