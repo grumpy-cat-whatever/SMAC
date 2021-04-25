@@ -215,14 +215,14 @@ class Scripts.Classes.PlaceSlaveMarket extends Place
 	{
 		var thisInstance:PlaceSlaveMarket = this;
 		
-		function SlaveFilter(idx:Number) {
+		var SlaveFilter:Function = function (idx:Number) {
 			if (idx < 0) return false;
 			var sgirl:Slave = thisInstance.SMData.SlavesArray[idx];
 			if (sgirl.SlaveType == 2 || sgirl.SlaveType == -20 || sgirl.SlaveType == -10) return false;
 			if (sgirl.BitFlag1.CheckBitFlag(60) || sgirl.BitFlag1.CheckBitFlag(61)) return false;
 			return true;
 		}
-		function SellCallback()
+		var SellCallback:Function = function ()
 		{
 			thisInstance.SMTRACE("SellCallback");
 			thisInstance.coreGame.SlavePicker.ReviewSlave(thisInstance.coreGame.PersonIndex, "SellParticularSlave", thisInstance);

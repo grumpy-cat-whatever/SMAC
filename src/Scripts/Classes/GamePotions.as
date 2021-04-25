@@ -42,13 +42,13 @@ class Scripts.Classes.GamePotions extends DialogBase {
 
 		mcBase.DrinkerBtn.Btn.onPress = function() {
 			ti.coreGame.HideLeaveButton();
-			function SlaveFilter(idx:Number) {
+			var SlaveFilter:Function = function (idx:Number) {
 				if (idx < 0) return true;
 				var sgirl:Slave = ti.SMData.SlavesArray[idx];
 				if (sgirl.SlaveType == -20) return false;
 				return true;
 			}
-			function SlavePicked() { ti.ShowDialogContents(); }
+			var SlavePicked:Function = function () { ti.ShowDialogContents(); }
 			ti.coreGame.PickASlave(ti.Language.GetHtml("WhoWillDrink", "Potions"), true, SlaveFilter, SlavePicked);
 			coreGame.HideAllPeople();
 		}

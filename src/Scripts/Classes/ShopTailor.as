@@ -126,13 +126,13 @@ class Scripts.Classes.ShopTailor extends Shop {
 		mc.tabChildren = true;
 
 		var ti:ShopTailor = this;
-		function PickCallback() { ti.CustomerPicked();	}
+		var PickCallback:Function = function () { ti.CustomerPicked();	}
 		
 		mc.Btn.onPress = function() {
 			ti.mcBase._visible = false;
 			ti.coreGame.Quitter._visible = false;
 			ti.HideEquipmentButton();
-			function SlaveFilter(idx:Number) {
+			var SlaveFilter:Function = function (idx:Number) {
 				if (idx == -100 || idx == -50) return true;
 				if (idx < 0) return false;
 				return ti.SMData.SlavesArray[idx].SlaveType == -10;

@@ -463,8 +463,8 @@ class Scripts.Classes.Shop extends DialogBase {
 			ti.mcBase._visible = false;
 			ti.coreGame.Quitter._visible = false;
 			ti.HideEquipmentButton();
-			function PickCallback() { ti.CustomerPicked();	}
-			function SlaveFilter(idx:Number) {
+			var PickCallback:Function = function () { ti.CustomerPicked();	};
+			var SlaveFilter:Function = function (idx:Number) {
 				if (idx < 0) return true;
 				var sgirl:Slave = ti.SMData.SlavesArray[idx];
 				if (sgirl.SlaveType == -20 || sgirl.SlaveType == -1) return false;

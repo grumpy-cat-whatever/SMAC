@@ -222,7 +222,7 @@ class Scripts.Classes.Avatar {
 		
 		// on image load callback
 		var ti:Avatar = this;
-		function LoadDone(img:MovieClip, tgt:MovieClip)
+		var LoadDone:Function = function (img:MovieClip, tgt:MovieClip)
 		{
 			//trace("LoadDone: " + img + " " + img.loaderror + " " + tgt.frame);
 			if (img.loaderror != true) return;  // ignore successful loads
