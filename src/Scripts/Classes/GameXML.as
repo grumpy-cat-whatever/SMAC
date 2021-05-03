@@ -758,10 +758,10 @@ class GameXML extends XMLStatistics {
 		coreGame.AssistantVanilla = GetXMLBoolean("Vanilla", aNode, coreGame.AssistantVanilla);
 		
 		str = GetXMLString("AssistantMaster", aNode);
-		if (str != "") coreGame.ServantMaster = str;
+		if (str != "") coreGame.ServantMaster = UpdateMacros(str);
 		
 		str = GetXMLString("Pronoun", aNode);
-		if (str != "") coreGame.ServantPronoun = str;
+		if (str != "") coreGame.ServantPronoun = UpdateMacros(str);
 	
 		var iNode:XMLNode = GetNodeC(aNode, "Speech");
 		if (iNode != null) {
