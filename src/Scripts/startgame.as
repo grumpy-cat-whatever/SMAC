@@ -194,7 +194,7 @@ function ResumeShow()
 			if (!XMLData.XMLEventByNode(GetNode(slaveNode, "StartGreeting"), false)) {
 				if (ServantName != "") {
 					if (CurrentAssistant.StartMessageAsAssistant(bSGMessage) != true) {
-						if (!XMLData.XMLEventByNode(GetNode(assNode, "StartGreeting"), true, undefined, true)) {
+						if (!XMLData.XMLEventByNode(GetNode(assNode, "AssistantStartGreeting"), false)) {
 							if (SMData.GuildMember) ServantSpeak(Language.strReplaceValue(Language.GetHtml("StartMessage", assNode), TrainingTime), true);
 							else ServantSpeak(Language.GetHtml("StartMessageFreelancer", assNode));
 						}
