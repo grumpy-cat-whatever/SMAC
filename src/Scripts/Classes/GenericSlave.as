@@ -421,7 +421,7 @@ class GenericSlave extends Scripts.Classes.GenericSlaveImages
 	
 	// School
 	public function ShowSchoolSinging() : Boolean { 
-		slaveData.ShowActImage(1033);
+		slaveData.ShowActImage(1032);
 		return true;
 	}
 	
